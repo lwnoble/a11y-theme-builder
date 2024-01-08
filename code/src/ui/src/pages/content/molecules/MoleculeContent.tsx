@@ -23,6 +23,10 @@ import { SlidersMolecule } from '../../molecules/SlidersMolecule';
 import { SpacingMolecule } from '../../molecules/SpacingMolecule';
 import { ModalMolecule } from '../../molecules/ModalMolecule';
 import { ChipsMolecule } from '../../molecules/ChipsMolecule';
+import { DoughnutChartMolecule } from '../../molecules/DoughnutChartMolecule';
+import { PieChartMolecule } from '../../molecules/PieChartMolecule';
+import { BarChartMolecule } from '../../molecules/BarChartMolecule';
+import { LineChartMolecule } from '../../molecules/LineChartMolecule';
 import { Preferences } from '../../../Preferences';
 
 const name = "MoleculeContent"
@@ -48,7 +52,7 @@ const moleculesList: {[key: string]:moleculeItem} = {
     sliders: {value: "sliders", label: "Sliders", molecule: "Sliders", disabled: true},
     toasts: {value: "toasts", label: "Toasts", molecule: "Toasts", disabled: true},
 
-    donut: {value: "donut", label: "Donut", molecule: "Donut", disabled: true},
+    doughnut: {value: "doughnut", label: "Donut", molecule: "Doughnut", disabled: true},
     pie: {value: "pie", label: "Pie", molecule: "Pie", disabled: true},
     bar: {value: "bar", label: "Bar", molecule: "Bar", disabled: true},
     line: {value: "line", label: "Line", molecule: "Line", disabled: true},
@@ -57,7 +61,7 @@ const moleculesList: {[key: string]:moleculeItem} = {
 }
 
 // Molecules that are not going to be implemented for MVP
-const notImplemented = ["charts", "donut", "pie", "bar", "line", "progress"]
+const notImplemented = ["charts", "doughnut", "pie", "bar", "line", "progress"]
 
 interface Props {
     user: any;
@@ -97,6 +101,11 @@ export const MoleculeContent: React.FC<Props> = ({ user, designSystem }) => {
                 }
             }
         }
+        // TODO: remove once designSystem.molecules.PieMolecule available from designSystem in SDK
+        _molecules["doughnut"].disabled = false;
+        _molecules["pie"].disabled = false;
+        _molecules["bar"].disabled = false;
+        _molecules["line"].disabled = false;
         setMolecules(_molecules);
         if (_molecules[showMolecule] && _molecules[showMolecule].disabled) {
             setShowMolecule("molecules");
@@ -213,7 +222,7 @@ export const MoleculeContent: React.FC<Props> = ({ user, designSystem }) => {
                     </LeftNavItem>
                     <Collapse in={displayCharts} timeout="auto" unmountOnExit>
                         <List component="div" disablePadding>
-                            <LeftNavMolecule item={molecules.donut} indent={2} />
+                            <LeftNavMolecule item={molecules.doughnut} indent={2} />
                             <LeftNavMolecule item={molecules.pie} indent={2} />
                             <LeftNavMolecule item={molecules.bar} indent={2} />
                             <LeftNavMolecule item={molecules.line} indent={2} />
@@ -287,6 +296,26 @@ export const MoleculeContent: React.FC<Props> = ({ user, designSystem }) => {
                 {showMolecule === molecules.toasts.value && (
                     <ErrorHandler>
                         <ToastsMolecule toastsMolecule={designSystem.molecules.toasts}/>
+                    </ErrorHandler>
+                )}
+                {showMolecule === molecules.doughnut.value && (
+                    <ErrorHandler>
+                        <DoughnutChartMolecule designSystem={designSystem}/>
+                    </ErrorHandler>
+                )}
+                {showMolecule === molecules.pie.value && (
+                    <ErrorHandler>
+                        <PieChartMolecule designSystem={designSystem}/>
+                    </ErrorHandler>
+                )}
+                {showMolecule === molecules.bar.value && (
+                    <ErrorHandler>
+                        <BarChartMolecule designSystem={designSystem}/>
+                    </ErrorHandler>
+                )}
+                {showMolecule === molecules.line.value && (
+                    <ErrorHandler>
+                        <LineChartMolecule designSystem={designSystem}/>
                     </ErrorHandler>
                 )}
             </div>
