@@ -1,5 +1,6 @@
 :root {
   /* Core JSON */
+  --decorative: "block";
   --zoom: 1;
   --meshSVGfill: rgb(0,102,239);
   /* FIXED */
@@ -374,6 +375,47 @@
   --glow-rgb: 0, 0, 0;
   --glow-opacity: 0.2;
   --glow-change: 0.2;
+  /* Charting Colors */
+  --chart-1:;
+  --chart-2:;
+  --chart-3:;
+  --chart-4:;
+  --chart-5:;
+  --chart-6:;
+  --chart-7:;
+  --chart-8:;
+  --chart-9:;
+  --chart-10:;
+  --on-chart-1:;
+  --on-chart-2:;
+  --on-chart-3:;
+  --on-chart-4:;
+  --on-chart-5:;
+  --on-chart-6:;
+  --on-chart-7:;
+  --on-chart-8:;
+  --on-chart-9:;
+  --on-chart-10:;
+  --dm-chart-1:;
+  --dm-chart-2:;
+  --dm-chart-3:;
+  --dm-chart-4:;
+  --dm-chart-5:;
+  --dm-chart-6:;
+  --dm-chart-7:;
+  --dm-chart-8:;
+  --dm-chart-9:;
+  --dm-chart-10:;
+  --dm-on-chart-1:;
+  --dm-on-chart-2:;
+  --dm-on-chart-3:;
+  --dm-on-chart-4:;
+  --dm-on-chart-5:;
+  --dm-on-chart-6:;
+  --dm-on-chart-7:;
+  --dm-on-chart-8:;
+  --dm-on-chart-9:;
+  --dm-on-chart-10:;
   /* States */
   --info: #0066EF;
   --on-info: rgba(255,255,255,1);
@@ -982,7 +1024,27 @@
   --primary-hotlink: var(--hotlink);
   --primary-hotlink-decoration: var(--hotlink-decoration);
   --primary-hotlink-hover-decoration: var(--hotlink-hover-decoration);
-
+  /* charting colors */
+  --chart-1: #000000;
+  --chart-2: #000000;
+  --chart-3: #000000;
+  --chart-4: #000000;
+  --chart-5: #000000;
+  --chart-6: #000000;
+  --chart-7: #000000;
+  --chart-8: #000000;
+  --chart-9: #000000;
+  --chart-10: #000000;
+  --dm-chart-1: #000000;
+  --dm-chart-2: #000000;
+  --dm-chart-3: #000000;
+  --dm-chart-4: #000000;
+  --dm-chart-5: #000000;
+  --dm-chart-6: #000000;
+  --dm-chart-7: #000000;
+  --dm-chart-8: #000000;
+  --dm-chart-9: #000000;
+  --dm-chart-10: #000000;
   /* Light Mode (hacck until we update the sdk ) */
   --lm-body-bg: var(--white);
   --lm-white: var(--white);
@@ -1773,6 +1835,17 @@
     --on-accent-800: var(--lm-on-accent-800);
     --accent-900: var(--lm-accent-900);
     --on-accent-900: var(--lm-on-accent-900);
+    /* charting colors */
+    --c-1: var(--chart-1);
+    --c-2: var(--chart-2);
+    --c-3: var(--chart-3);
+    --c-4: var(--chart-4);
+    --c-5: var(--chart-5);
+    --c-6: var(--chart-6);
+    --c-7: var(--chart-7);
+    --c-8: var(--chart-8);
+    --c-9: var(--chart-9);
+    --c-10: var(--chart-10);
     /* border opacity */
     --border-opacity: 15%;
     /* Primary background */
@@ -2227,6 +2300,17 @@
     --on-accent-800: var(--dm-on-accent-800);
     --accent-900: var(--dm-accent-900);
     --on-accent-900: var(--dm-on-accent-900);
+    /* chartign colors */
+    --c-1: var(--dm-chart-1);
+    --c-2: var(--dm-chart-2);
+    --c-3: var(--dm-chart-3);
+    --c-4: var(--dm-chart-4);
+    --c-5: var(--dm-chart-5);
+    --c-6: var(--dm-chart-6);
+    --c-7: var(--dm-chart-7);
+    --c-8: var(--dm-chart-8);
+    --c-9: var(--dm-chart-9);
+    --c-10: var(--dm-chart-10);
     /* border opacity */
     --border-opacity: 40%;
     /* Primary background */
@@ -2253,27 +2337,6 @@
     --primary-text-gradient-a: var(--dm-text-gradient-a);
     --primary-text-gradient-b: var(--dm-text-gradient-b);
     --primary-color-drop: var(--dm-color-drop);
-    /* charting colors */
-    --chart-1: #000000;
-    --chart-2: #000000;
-    --chart-3: #000000;
-    --chart-4: #000000;
-    --chart-5: #000000;
-    --chart-6: #000000;
-    --chart-7: #000000;
-    --chart-8: #000000;
-    --chart-9: #000000;
-    --chart-10: #000000;
-    --dm-chart-1: #000000;
-    --dm-chart-2: #000000;
-    --dm-chart-3: #000000;
-    --dm-chart-4: #000000;
-    --dm-chart-5: #000000;
-    --dm-chart-6: #000000;
-    --dm-chart-7: #000000;
-    --dm-chart-8: #000000;
-    --dm-chart-9: #000000;
-    --dm-chart-10: #000000;
     /* bevel */
     --bevel-1: inset var(--bevel-horizontal) var(--bevel-vertical) var(--bevel-blur) var(--bevel-spread) rgba(255,255,255, calc(var(--bevel-light-opacity) * calc(1 + calc(var(--bevel-change) * 1)))),
      inset calc(0px - calc(var(--bevel-horizontal) * calc(1 + calc(var(--bevel-change) * 1)))) calc(0px - calc(var(--bevel-vertical) * calc(1 + calc(var(--bevel-change) * 1)))) var(--bevel-blur) var(--bevel-spread)
@@ -2823,48 +2886,183 @@
     --animation-speed: 0;
     --animation-focus-distance: 0px;
   }
-  [data-color="standard"] {
-    --c-1: var(--chart-1);
-    --c-2: var(--chart-2);
-    --c-3: var(--chart-3);
-    --c-4: var(--chart-4);
-    --c-5: var(--chart-5);
-    --c-6: var(--chart-6);
-    --c-7: var(--chart-7);
-    --c-8: var(--chart-8);
-    --c-9: var(--chart-9);
-    --c-10: var(--chart-10);
-    --dm-c-1: var(--chart-1);
-    --dm-c-2: var(--chart-2);
-    --dm-c-3: var(--chart-3);
-    --dm-c-4: var(--chart-4);
-    --dm-c-5: var(--chart-5);
-    --dm-c-6: var(--chart-6);
-    --dm-c-7: var(--chart-7);
-    --dm-c-8: var(--chart-8);
-    --dm-c-9: var(--chart-9);
-    --dm-c-10: var(--chart-10);
+  [data-colorMode="redweak"] {
+    --chart-1: #3A62C7;
+    --chart-2: #1E455D;
+    --chart-3: #4793BD;
+    --chart-4: #62649D;
+    --chart-5: #A34250;
+    --chart-6: #D07565;
+    --chart-7: #5C7C64;
+    --chart-8: #BA77A0;
+    --chart-9: #789399;
+    --chart-10: #AF884E;
+    --dm-chart-1: #3A62C7;
+    --dm-chart-2: #2E6D94;
+    --dm-chart-3: #4793BD;
+    --dm-chart-4: #62649D;
+    --dm-chart-5: #A34250;
+    --dm-chart-6: #D07565;
+    --dm-chart-7: #5C7C64;
+    --dm-chart-8: #BA77A0;
+    --dm-chart-9: #789399;
+    --dm-chart-10: #AF884E;
   }
-  [data-color="red-weak"] {
-    --c-1: var(--chart-1);
-    --c-2: var(--chart-2);
-    --c-3: var(--chart-3);
-    --c-4: var(--chart-4);
-    --c-5: var(--chart-5);
-    --c-6: var(--chart-6);
-    --c-7: var(--chart-7);
-    --c-8: var(--chart-8);
-    --c-9: var(--chart-9);
-    --c-10: var(--chart-10);
-    --dm-c-1: var(--chart-1);
-    --dm-c-2: var(--chart-2);
-    --dm-c-3: var(--chart-3);
-    --dm-c-4: var(--chart-4);
-    --dm-c-5: var(--chart-5);
-    --dm-c-6: var(--chart-6);
-    --dm-c-7: var(--chart-7);
-    --dm-c-8: var(--chart-8);
-    --dm-c-9: var(--chart-9);
-    --dm-c-10: var(--chart-10);
+  [data-colorMode="greenweak"] {
+    --chart-1: #060B24;
+    --chart-2: #1C4174;
+    --chart-3: #558BE8;
+    --chart-4: #3A62C7;
+    --chart-5: #7F574E;
+    --chart-6: #B98446;
+    --chart-7: #767637;
+    --chart-8: #9180CD;
+    --chart-9: #9C839D;
+    --chart-10: #52406F;
+    --dm-chart-1: #2E6D94;
+    --dm-chart-2: #558BE8;
+    --dm-chart-3: #62649D;
+    --dm-chart-4: #97675C;
+    --dm-chart-5: #B98446;
+    --dm-chart-6: #999947;
+    --dm-chart-7: #EABE6D;
+    --dm-chart-8: #9180CD;
+    --dm-chart-9: #9C839D;
+    --dm-chart-10: #CBB1F4;
+  }
+  [data-colorMode="blueweak"] {
+    --chart-1: #060B24;
+    --chart-2: #1C4174;
+    --chart-3: #558BE8;
+    --chart-4: #3A62C7;
+    --chart-5: #7F574E;
+    --chart-6: #B98446;
+    --chart-7: #767637;
+    --chart-8: #9180CD;
+    --chart-9: #9C839D;
+    --chart-10: #52406F;
+    --dm-chart-1: #2E6D94;
+    --dm-chart-2: #558BE8;
+    --dm-chart-3: #62649D;
+    --dm-chart-4: #97675C;
+    --dm-chart-5: #B98446;
+    --dm-chart-6: #999947;
+    --dm-chart-7: #EABE6D;
+    --dm-chart-8: #9180CD;
+    --dm-chart-9: #9C839D;
+    --dm-chart-10: #CBB1F4;
+  }
+  [data-colorMode="redblind"] {
+    --chart-1: #060B24;
+    --chart-2: #274F94;
+    --chart-3: #3A62C7;
+    --chart-4: #558BE8;
+    --chart-5: #665B27;
+    --chart-6: #807532;
+    --chart-7: #9D9151;
+    --chart-8: #6170A5;
+    --chart-9: #8988A4;
+    --chart-10: #908D8C;
+    --dm-chart-1: #7484BA;
+    --dm-chart-2: #A1AFDD;
+    --dm-chart-3: #2C67B3;
+    --dm-chart-4: #558BE8;
+    --dm-chart-5: #8B703E;
+    --dm-chart-6: #AA8B5B;
+    --dm-chart-7: #EABE6D;
+    --dm-chart-8: #75696D;
+    --dm-chart-9: #9B8C92;
+    --dm-chart-10: #DCC7CD;
+  }
+  [data-colorMode="greenblind"] {
+    --chart-1: #031021;
+    --chart-2: #283E78;
+    --chart-3: #6886E5;
+    --chart-4: #2B67D6;
+    --chart-5: #5E6383;
+    --chart-6: #8988A4;
+    --chart-7: #8F8D8C;
+    --chart-8: #807531;
+    --chart-9: #9E9050;
+    --chart-10: #A08A76;
+    --dm-chart-1: #7484BA;
+    --dm-chart-2: #A1AFDD;
+    --dm-chart-3: #2C67B3;
+    --dm-chart-4: #558BE8;
+    --dm-chart-5: #A0949D;
+    --dm-chart-6: #C6B3B8;
+    --dm-chart-7: #E6D4E4;
+    --dm-chart-8: #807531;
+    --dm-chart-9: #9E9050;
+    --dm-chart-10: #DBC55A;
+  }
+  [data-colorMode="blueblind"] {
+    --chart-1: #041214;
+    --chart-2: #1C484D;
+    --chart-3: #3D8C98;
+    --chart-4: #67989B;
+    --chart-5: #91999C;
+    --chart-6: #59373A;
+    --chart-7: #94686C;
+    --chart-8: #A24443;
+    --chart-9: #D17377;
+    --chart-10: #D33635;
+    --dm-chart-1: #226F78;
+    --dm-chart-2: #3D8C98;
+    --dm-chart-3: #67989B;
+    --dm-chart-4: #BEE1E3;
+    --dm-chart-5: #736970;
+    --dm-chart-6: #998E96;
+    --dm-chart-7: #B84E4D;
+    --dm-chart-8: #9A5E63;
+    --dm-chart-9: #D17377;
+    --dm-chart-10: #DEBBC7;
+  }
+  [data-colorMode="bluecone"] {
+    --chart-1: #D33635;
+    --chart-2: #3D8C98;
+    --chart-3: #67989B;
+    --chart-4: #6E6194;
+    --chart-5: #775161;
+    --chart-6: #A082A8;
+    --chart-7: #607053;
+    --chart-8: #D17377;
+    --chart-9: #8750C7;
+    --chart-10: #9E9050;
+    --dm-chart-1: #8750C7;
+    --dm-chart-2: #2E6D94;
+    --dm-chart-3: #4793BD;
+    --dm-chart-4: #DBC55A;
+    --dm-chart-5: #B74E5D;
+    --dm-chart-6: #D07565;
+    --dm-chart-7: #5C7C64;
+    --dm-chart-8: #BA77A0;
+    --dm-chart-9: #789399;
+    --dm-chart-10: #767637;
+  }
+  [data-colorMode="monocromatic"] {
+    --chart-1: #D33635;
+    --chart-2: #3D8C98;
+    --chart-3: #67989B;
+    --chart-4: #6E6194;
+    --chart-5: #775161;
+    --chart-6: #A082A8;
+    --chart-7: #607053;
+    --chart-8: #D17377;
+    --chart-9: #8750C7;
+    --chart-10: #9E9050;
+    --dm-chart-1: #8750C7;
+    --dm-chart-2: #2E6D94;
+    --dm-chart-3: #4793BD;
+    --dm-chart-4: #DBC55A;
+    --dm-chart-5: #B74E5D;
+    --dm-chart-6: #D07565;
+    --dm-chart-7: #5C7C64;
+    --dm-chart-8: #BA77A0;
+    --dm-chart-9: #789399;
+    --dm-chart-10: #767637;
+  }
+  [data-screenReader="on"] {
+    --decorative: "none";
   }
 }

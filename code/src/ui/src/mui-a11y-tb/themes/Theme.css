@@ -431,7 +431,47 @@ section:has( .quote) {
   background: var(--white) !important;
   color: var(--on-white);
 }
-
+/* Charting Colors */
+.c1 {
+  background: var(--c-1);
+  fill: var(--c-1);
+}
+.c2 {
+  background: var(--c-2);
+  fill: var(--c-2);
+}
+.c3 {
+  background: var(--c-3);
+  fill: var(--c-3);
+}
+.c4 {
+  background: var(--c-4);
+  fill: var(--c-4);
+}
+.c5 {
+  background: var(--c-5);
+  fill: var(--c-5);
+}
+.c6 {
+  background: var(--c-6);
+  fill: var(--c-6);
+}
+.c7 {
+  background: var(--c-7);
+  fill: var(--c-7);
+}
+.c8 {
+  background: var(--c-8);
+  fill: var(--c-8);
+}
+.c9 {
+  background: var(--c-9);
+  fill: var(--c-9);
+}
+.c10 {
+  background: var(--c-10);
+  fill: var(--c-10);
+}
 /* THEME */
 .theme-primary {
   background: var(--primary) !important;
@@ -1723,9 +1763,7 @@ button.MuiPaginationItem-root:hover {
   position: relative;
   box-shadow: var(--sliderhandle-shadow);
 }
-.MuiSwitch-root:hover .MuiSwitch-switchBase:hover {
-  box-shadow: none;
-}
+
 .MuiSwitch-root .MuiSwitch-switchBase .MuiSwitch-thumb::after {
   position: absolute;
   pointer-events: none;
@@ -1757,6 +1795,16 @@ button.MuiPaginationItem-root:hover {
   bottom: calc(0px - calc(var(--focusBorder) + 2px));
   opacity: 1;
 }
+/* with grooves or ridges */
+.MuiSwitch-root:hover .MuiSwitch-switchBase .MuiSwitch-thumb::after {
+  position: absolute;
+  top: calc(0px - calc(var(--focusBorder) + 2px));
+  left: calc(0px - calc(var(--focusBorder) + 2px));
+  right: calc(0px - calc(var(--focusBorder) + 2px));
+  bottom: calc(0px - calc(var(--focusBorder) + 2px));
+  opacity: .5;
+}
+
 .MuiSwitch-root .MuiSwitch-track {
   position: absolute;
   top: 50%;

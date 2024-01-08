@@ -33,6 +33,7 @@ import { PopoversComponent } from '../../components/PopoversComponent';
 import { CoreColorsComponent } from '../../components/colors/CoreColorsComponent';
 import { ThemeColorsComponent } from '../../components/colors/ThemeColorsComponent';
 import { ExtendedPaletteComponent } from '../../components/colors/ExtendedPaletteComponent';
+import { ChartingPaletteComponent } from '../../components/colors/ChartingPaletteComponent';
 import { BackgroundColorsComponent } from '../../components/colors/BackgroundColorsComponent';
 import { GradientsComponent } from '../../components/colors/GradientsComponent';
 import { HotlinksComponent } from '../../components/colors/HotlinksComponent';
@@ -164,6 +165,7 @@ export const ComponentsContent: React.FC<Props> = ({ user, designSystem }) => {
                             <LeftNavItem text={"Core Colors"} value="colorsCoreColors" indent={2} selected={showComponent} onClick={()=> {setShowComponent("colorsCoreColors")}} />
                             <LeftNavItem text={"Theme Colors"} value="colorsThemeColors" indent={2} selected={showComponent} onClick={()=> {setShowComponent("colorsThemeColors")}} />
                             <LeftNavItem text={"Extended Palette"} value="colorsExtendedPalette" indent={2} selected={showComponent} onClick={()=> {setShowComponent("colorsExtendedPalette")}} />
+                            <LeftNavItem text={"Charting Palette"} value="colorsChartingPalette" indent={2} selected={showComponent} onClick={()=> {setShowComponent("colorsChartingPalette")}} />
                             <LeftNavItem text={"Backgrounds"} value="colorsBackgroundColors" indent={2} selected={showComponent} onClick={()=> {setShowComponent("colorsBackgroundColors")}} />
                             <LeftNavItem text={"Gradients"} value="colorsGradients" indent={2} selected={showComponent} onClick={()=> {setShowComponent("colorsGradients")}} />
                             <LeftNavItem text={"States"} value="colorsStates" indent={2} selected={showComponent} onClick={()=> {setShowComponent("colorsStates")}} />
@@ -276,6 +278,9 @@ export const ComponentsContent: React.FC<Props> = ({ user, designSystem }) => {
                     }
                     {showComponent === "colorsExtendedPalette" &&
                         <ExtendedPaletteComponent designSystem={designSystem} />
+                    }
+                    {showComponent === "colorsChartingPalette" &&
+                        <ChartingPaletteComponent />
                     }
                     {showComponent === "colorsBackgroundColors" &&
                         <BackgroundColorsComponent />
