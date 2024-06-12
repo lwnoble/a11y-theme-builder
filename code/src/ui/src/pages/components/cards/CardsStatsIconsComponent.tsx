@@ -24,42 +24,42 @@ export const CardsStatsIconsComponent: React.FC<Props> = () => {
             </CardColorModeSelector>
             <ExampleSection>
 
-            <div className="subtitle1 top40">Left Aligned Stat Card with Icon and two Buttons</div>
+            <div className="subtitle-large top40">Left Aligned Stat Card with Icon and two Buttons</div>
             <CardSample color={colorMode} title="1M" icon={true} stat={true} className={colorMode}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt magna aliqua
             </CardSample>
-            <div className="subtitle1 top40">Left Aligned Stat Card with Icon and Button</div>
+            <div className="subtitle-large top40">Left Aligned Stat Card with Icon and Button</div>
             <CardSample color={colorMode} title="1M" icon={true} stat={true} hideSecondary={true} className={colorMode}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt magna aliqua
             </CardSample>
-            <div className="subtitle1 top40">Left Aligned Stat Card with Icon and Hotlink</div>
+            <div className="subtitle-large top40">Left Aligned Stat Card with Icon and Hotlink</div>
             <CardSample color={colorMode} title="1M" icon={true} stat={true} hotlink={true} className={colorMode}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt magna aliqua
             </CardSample>
-            <div className="subtitle1 top40">Left Aligned Stat Card with Icon, Clickable</div>
+            <div className="subtitle-large top40">Left Aligned Stat Card with Icon, Clickable</div>
             <CardSample color={colorMode} title="1M" icon={true} stat={true} hotlink={true} clickable={true} className={colorMode}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt magna aliqua
             </CardSample>
-            <div className="subtitle1 top40">Center Aligned Stat Card with Icon and two Buttons</div>
+            <div className="subtitle-large top40">Center Aligned Stat Card with Icon and two Buttons</div>
             <CardSample color={colorMode} title="1M" icon={true}  stat={true} className={"centerAligned " + colorMode}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt magna aliqua
             </CardSample>
-            <div className="subtitle1 top40">Center Aligned Stat Card with Icon and Button</div>
+            <div className="subtitle-large top40">Center Aligned Stat Card with Icon and Button</div>
             <CardSample color={colorMode} title="1M" icon={true}  stat={true}  hideSecondary={true} className={"centerAligned " + colorMode}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt magna aliqua
             </CardSample>
-            <div className="subtitle1 top40">Center Aligned Stat Card with Icon and  Hotlink</div>
+            <div className="subtitle-large top40">Center Aligned Stat Card with Icon and  Hotlink</div>
             <CardSample color={colorMode}  title="1M"   icon={true} stat={true} hotlink={true} className={"centerAligned " + colorMode}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt magna aliqua
             </CardSample>
-            <div className="subtitle1 top40">Center Aligned Stat Card with Icon, Clickable</div>
+            <div className="subtitle-large top40">Center Aligned Stat Card with Icon, Clickable</div>
             <CardSample color={colorMode}  title="1M"   icon={true} stat={true} hotlink={true} clickable={true} className={"centerAligned " + colorMode}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt magna aliqua

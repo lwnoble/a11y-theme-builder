@@ -455,7 +455,7 @@ export const FontSettingsAtom: React.FC<Props> = ({ atoms }) => {
 
                         <Grid lg={4} md={12} sm={12}>
                             <div>
-                                <div className="subtitle1">Not seeing your font in Figma?</div>
+                                <div className="subtitle-large">Not seeing your font in Figma?</div>
                                 <p>Take these steps to render your selected fonts in Figma.</p>
                                 <ul>
                                     <li>Download and install your font on your local system.</li>

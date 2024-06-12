@@ -25,34 +25,34 @@ export const CardsImagesComponent921: React.FC<Props> = () => {
             <CardColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
             </CardColorModeSelector>
             <ExampleSection>
-              <div className="top40 subtitle1">Left Aligned 9:21 Ratio with two Buttons</div>
+              <div className="top40 subtitle-large">Left Aligned 9:21 Ratio with two Buttons</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg" imageClassName="cinemascope">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Left Aligned 9:21 Ratio with one Button</div>
+              <div className="top40 subtitle-large">Left Aligned 9:21 Ratio with one Button</div>
               <CardSample color="primary" title="Title" imagePath="/sample.jpg"  hideSecondary={true} imageClassName="cinemascope">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
 
-              <div className="top40 subtitle1">Left Aligned 9:21 Ratio with Hotlink</div>
+              <div className="top40 subtitle-large">Left Aligned 9:21 Ratio with Hotlink</div>
               <CardSample color="primary" title="Title" imagePath="/sample.jpg"  hotlink={true} imageClassName="cinemascope">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Left Aligned 9:21 Ratio, Clickable</div>
+              <div className="top40 subtitle-large">Left Aligned 9:21 Ratio, Clickable</div>
               <CardSample color="primary" title="Title" imagePath="/sample.jpg" imageClassName="cinemascope" clickable={true}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Center Aligned 9:21 Ratio with two Buttons</div>
+              <div className="top40 subtitle-large">Center Aligned 9:21 Ratio with two Buttons</div>
               <CardSample color="primary" title="Title" imagePath="/sample.jpg" className="centerAligned" imageClassName="cinemascope">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
 
-              <div className="top40 subtitle1">Center Aligned 9:21 Ratio with one Button</div>
+              <div className="top40 subtitle-large">Center Aligned 9:21 Ratio with one Button</div>
               <CardSample
                   color="primary"
                   title="Title"
@@ -64,7 +64,7 @@ export const CardsImagesComponent921: React.FC<Props> = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Center Aligned 9:21 Ratio with Hotlink</div>
+              <div className="top40 subtitle-large">Center Aligned 9:21 Ratio with Hotlink</div>
               <CardSample
                   color="primary"
                   title="Title"
@@ -79,7 +79,7 @@ export const CardsImagesComponent921: React.FC<Props> = () => {
                   sed do eiusmod te
                   mpor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Center Aligned 9:21 Ratio, Clickable</div>
+              <div className="top40 subtitle-large">Center Aligned 9:21 Ratio, Clickable</div>
               <CardSample
                   color="primary"
                   title="Title"

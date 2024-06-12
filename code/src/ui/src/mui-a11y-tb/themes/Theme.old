@@ -140,14 +140,14 @@ h6 {
   text-decoration:  var(--body3-boldTextDecoration) !important;
 }
 /* Small Text */
-.subtitle1 {
-  font-family:  var(--subtitle1FontFamily);
-  font-weight: var(--subtitle1FontWeight) !important;
-  font-size: var(--subtitle1FontSize) !important;
-  line-height: var(--subtitle1LineHeight) !important;
-  letter-spacing: var(--subtitle1LetterSpacing) !important;
-  text-transform: var(--subtitle1TextTransform) !important;
-  text-decoration:  var(--subtitle1TextDecoration) !important;
+.subtitle-large {
+  font-family:  var(--subtitle-largeFontFamily);
+  font-weight: var(--subtitle-largeFontWeight) !important;
+  font-size: var(--subtitle-largeFontSize) !important;
+  line-height: var(--subtitle-largeLineHeight) !important;
+  letter-spacing: var(--subtitle-largeLetterSpacing) !important;
+  text-transform: var(--subtitle-largeTextTransform) !important;
+  text-decoration:  var(--subtitle-largeTextDecoration) !important;
 }
 .subtitle2 {
   font-family:  var(--subtitle2FontFamily);
@@ -331,7 +331,7 @@ section {
   color: var(--on-background-secondary);
 }
 .button {
-  background: var(--button);
+  background: var(--background-button);
   color: var(--on-button);
 }
 .icon {
@@ -669,9 +669,9 @@ button {
   align-items: center;
   gap: 8px;
   justify-content: center;
-  background: var(--button) !important;
+  background: var(--background-button) !important;
   color: var(--on-button) !important;
-  border-radius: calc(var(--radius-1) * var(--button-radius));
+  border-radius: var(--button-radius));
   min-height: calc(var(--spacing-1) * var(--button-height));
   min-width: calc(var(--spacing-1) * var(--button-minwidth));
   text-align: center;
@@ -703,7 +703,7 @@ button::after  {
   bottom: calc(0px - 3px - var(--animation-focus-distance));
   right: calc(0px - 3px - var(--animation-focus-distance));
   left: calc(0px - 3px - var(--animation-focus-distance));
-  border: calc(var(--border-1) * var(--button-border)) solid var(--button);
+  border: calc(var(--border-1) * var(--button-border)) solid var(--background-button);
   background: transparent !important;
   opacity: 0;
   content: '';
@@ -844,8 +844,8 @@ button.small-btn::before {
   left: 0px;
   right: 0px;
   content: '';
-  background: var(--button) !important;
-  border-radius: calc(var(--radius-1) * var(--button-radius));
+  background: var(--background-button) !important;
+  border-radius: var(--button-radius));
   z-index: -1;
   font: var(--sm-buttonTypography);
   box-shadow: var(--button-shadow);
@@ -859,7 +859,7 @@ button.dropdown-toggle::before {
   bottom: 0px;
   content: '';
   background: var(--on-white);
-  border-radius: calc(var(--radius-1) * var(--button-radius));
+  border-radius: var(--button-radius));
   opacity: 0;
 }
 button.left-icon {
@@ -872,12 +872,12 @@ button.right-icon {
 button.MuiButton-outlined,
 button.MuiButton-text {
   background: none !important;
-  color: var(--button) !important;
+  color: var(--background-button) !important;
 }
 button.MuiButton-outlined::before {
   position: absolute;
-  border: calc(var(--border-1) * var(--button-border)) solid var(--button);
-  border-radius: calc(var(--radius-1) * var(--button-radius));
+  border: calc(var(--border-1) * var(--button-border)) solid var(--background-button);
+  border-radius: var(--button-radius));
   box-shadow: var(--button-shadow);
   top: 0;
   bottom: 0;
@@ -894,7 +894,7 @@ button.small-btn.MuiButton-outlined::before {
   background: transparent !important;
   box-shadow: var(--button-shadow);
   height: calc(var(--sm-button-height) + 2px);
-  border: calc(var(--border-1) * var(--button-border)) solid var(--button)
+  border: calc(var(--border-1) * var(--button-border)) solid var(--background-button)
 }
 
 /* dark buttons */
@@ -937,7 +937,7 @@ button.MuiButtonGroup-groupedVertical {
 
 button.MuiButton-outlined::after,
 button.MuiButton-text::after {
-  background: var(--button);
+  background: var(--background-button);
 }
 
 button.small-btn.MuiButton-text::before {
@@ -1281,7 +1281,7 @@ a:active {
 }
 /* pagination */
 button.MuiPaginationItem-root {
-  border: calc(var(--border-1) * var(--button-border)) solid var(--button) !important;
+  border: calc(var(--border-1) * var(--button-border)) solid var(--background-button) !important;
   opacity: var(--quiet);
   min-height: var(--min-target)
 }
@@ -1289,7 +1289,7 @@ button.MuiPaginationItem-root:hover {
   opacity: 1;
 }
 .MuiPaginationItem-root.Mui-selected {
-  background: var(--button);
+  background: var(--background-button);
   opacity: 1;
 }
 /* darmode pagination */
@@ -1332,9 +1332,9 @@ button.MuiPaginationItem-root:hover {
  left:   calc(0px - 3px - var(--animation-focus-distance));
  right:  calc(0px - 3px - var(--animation-focus-distance));
  opacity: 0;
- border: var(--focusBorder)  solid var(--button);
+ border: var(--focusBorder)  solid var(--background-button);
  border-radius: calc(calc(var(--radius-1) * var(--card-radius)) + 1.6px);
- box-shadow: 0 0 var(--focusBlur) 0px var(--button);
+ box-shadow: 0 0 var(--focusBlur) 0px var(--background-button);
  transition: var(--animation-speed)  cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
  pointer-events: none;
 }
@@ -1443,11 +1443,11 @@ button.MuiPaginationItem-root:hover {
 .MuiAlert-root .MuiAlert-message {
   overflow: visible;
   padding: 0;
-  font-size: var(--subtitle1FontSize);
-  font-family: var(--subtitle1FontFamily);
-  font-weight: var(--subtitle1FontWeight);
-  line-height: var(--subtitle1LineHeight);
-  letter-spacing: var(--subtitle1LetterSpacing);
+  font-size: var(--subtitle-largeFontSize);
+  font-family: var(--subtitle-largeFontFamily);
+  font-weight: var(--subtitle-largeFontWeight);
+  line-height: var(--subtitle-largeLineHeight);
+  letter-spacing: var(--subtitle-largeLetterSpacing);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1672,7 +1672,7 @@ button.MuiPaginationItem-root:hover {
  right: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
  bottom: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
  border-radius: calc(var(--spacing-1) + 1.6px);
- border: var(--focusBorder) solid var(--button);
+ border: var(--focusBorder) solid var(--background-button);
  background: transparent !important;
  opacity: 0;
  content: '';
@@ -1809,7 +1809,7 @@ button.MuiPaginationItem-root:hover {
   right: 0;
 }
 .MuiSwitch-root .MuiSwitch-switchBase .MuiSwitch-thumb {
-  background: var(--button);
+  background: var(--background-button);
   padding: 0;
   left: 0;
   width: var(--spacing-3);
@@ -1826,7 +1826,7 @@ button.MuiPaginationItem-root:hover {
   right: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
   bottom: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
   border-radius: calc(calc(var(--sliderhandleRadius) * var(--radius-1))  + 1.6px);
-  border: var(--focusBorder) solid var(--button);
+  border: var(--focusBorder) solid var(--background-button);
   background: transparent !important;
   opacity: 0;
   content: '';
@@ -1864,14 +1864,14 @@ button.MuiPaginationItem-root:hover {
   box-shadow: var(--barInBevel);
 }
 .MuiSwitch-root .MuiButtonBase-root.Mui-checked ~ .MuiSwitch-track {
-  background-color: var(--button) !important;
+  background-color: var(--background-button) !important;
 }
 /* darm mode swicth */
 .darkmode .MuiSwitch-root .MuiSwitch-switchBase .MuiSwitch-thumb {
   background: var(--dm-button);
 }
 .darkmode .MuiSwitch-root .MuiSwitch-switchBase .MuiSwitch-thumb::after {
-  border: var(--focusBorder) solid var(--button);
+  border: var(--focusBorder) solid var(--background-button);
 }
 .darkmode .MuiSwitch-root .MuiSwitch-track {
   background-color: var(--dm-on-background);
@@ -1887,7 +1887,7 @@ button.MuiPaginationItem-root:hover {
 .MuiSlider-root .MuiSlider-track{
   border: none;
   height: var(--min-target);
-  background-color: var(--button);
+  background-color: var(--background-button);
   height: calc(var(--sliderbarHeight) * var(--spacing-1));
   margin-top: calc( calc(var(--min-target) - calc( var(--sliderbarHeight) * var(--spacing-1) ))/2);
   opacity: var(--quiet);
@@ -1901,7 +1901,7 @@ button.MuiPaginationItem-root:hover {
    width: var(--spacing-3);
    width: var(--spacing-3);
    border-radius: calc(var(--sliderhandleRadius) * var(--radius-1));
-   background-color: var(--button);
+   background-color: var(--background-button);
    position: relative;
  }
  .MuiSlider-root .MuiSwitch-thumb::after {
@@ -1912,7 +1912,7 @@ button.MuiPaginationItem-root:hover {
    right: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
    bottom: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
    border-radius: calc(calc(var(--sliderhandleRadius) * var(--radius-1))  + 1.6px);
-   border: var(--focusBorder) solid var(--button);
+   border: var(--focusBorder) solid var(--background-button);
    background: transparent !important;
    opacity: 1;
    content: '';
@@ -1991,7 +1991,7 @@ button.MuiPaginationItem-root:hover {
   width: var(--sliderhandleHeight);
   right: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
   bottom: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
-  border: var(--focusBorder) solid var(--button);
+  border: var(--focusBorder) solid var(--background-button);
   background: transparent !important;
   opacity: 0;
   transition: var(--animation-speed) cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -2538,7 +2538,7 @@ button.MuiPaginationItem-root:hover {
   left: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-distance) ));
   right: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-distance)));
   bottom: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-distance)));
-  border: var(--focusBorder) solid var(--button);
+  border: var(--focusBorder) solid var(--background-button);
   border-radius: calc(var(--spacing-half) + 1.6px);
   z-index: 2;
   pointer-events: none;

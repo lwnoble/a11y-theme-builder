@@ -14,13 +14,13 @@ export const TextDecorationComponent: React.FC<Props> = () => {
         <div className="content">
             <HeadingSection title='Desktop' heading='Text Decorations'></HeadingSection>
             <ExampleSection>
-              <div className="subtitle1">Colored Title</div>
+              <div className="subtitle-large">Colored Title</div>
               <h1 className="colored-title">Sample Title</h1>
 
-              <div className="subtitle1">Gradient Title</div>
+              <div className="subtitle-large">Gradient Title</div>
               <h1 className="gradient-title">Sample Title</h1>
 
-              <div className="subtitle1 top40">Colored Drop Shadow Title</div>
+              <div className="subtitle-large top40">Colored Drop Shadow Title</div>
               <h1 className="drop-color">Sample Title</h1>
 
             </ExampleSection>

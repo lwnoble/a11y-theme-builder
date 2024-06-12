@@ -29,19 +29,19 @@ export const VideoLayouts: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                <div className="demo-title subtitle1">Small Video Left</div>
+                <div className="demo-title subtitle-large">Small Video Left</div>
                 <VideoLeftSmall  className="top40"/>
                 <p></p>
-                <div className="demo-title subtitle1">Medium Video Left</div>
+                <div className="demo-title subtitle-large">Medium Video Left</div>
                 <VideoLeft className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Video Centered</div>
+                <div className="demo-title subtitle-large">Video Centered</div>
                 <VideoCentered className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Small Video Right</div>
+                <div className="demo-title subtitle-large">Small Video Right</div>
                 <VideoRightSmall className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Medium Video Right</div>
+                <div className="demo-title subtitle-large">Medium Video Right</div>
                 <VideoRight className="top40" />
                 <p></p>
               </div>

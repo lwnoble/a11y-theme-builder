@@ -26,7 +26,7 @@ export const AccordionComponent: React.FC<Props> = () => {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <div className="subtitle1">This is my question</div>
+                        <div className="subtitle-large">This is my question</div>
                     </AccordionSummary>
                     <AccordionDetails>
                         <p>

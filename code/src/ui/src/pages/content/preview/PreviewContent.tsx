@@ -220,8 +220,8 @@ export const PreviewContent: React.FC<Props> = ({ user, designSystem }) => {
                               <p>
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
                               </p>
-                              <div className="subtitle1">John Doe</div>
-                              <div className="body2">Job Title</div>
+                              <div className="subtitle-large">John Doe</div>
+                              <div className="body-2">Job Title</div>
 
                             </div>
                             </Grid>
@@ -239,24 +239,16 @@ export const PreviewContent: React.FC<Props> = ({ user, designSystem }) => {
                             </div>
                           </Grid>
                           <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-                            <div className="subtitle1">Catagory Title</div>
+                            <div className="subtitle-large">Catagory Title</div>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                           </Grid>
                           <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-                            <div className="subtitle1">Catagory Title</div>
+                            <div className="subtitle-large">Catagory Title</div>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                          </Grid>
-                          <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-                            <div className="subtitle1">Catagory Title</div>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
@@ -264,7 +256,7 @@ export const PreviewContent: React.FC<Props> = ({ user, designSystem }) => {
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                           </Grid>
                           <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-                            <div className="subtitle1">Catagory Title</div>
+                            <div className="subtitle-large">Catagory Title</div>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
@@ -272,7 +264,15 @@ export const PreviewContent: React.FC<Props> = ({ user, designSystem }) => {
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                           </Grid>
                           <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-                            <div className="subtitle1">Catagory Title</div>
+                            <div className="subtitle-large">Catagory Title</div>
+                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                            <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                          </Grid>
+                          <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
+                            <div className="subtitle-large">Catagory Title</div>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                             <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>

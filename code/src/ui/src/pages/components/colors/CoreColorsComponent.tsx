@@ -23,7 +23,7 @@ export const CoreColorsComponent: React.FC<Props> = ({}) => {
             <HeadingSection title="Colors" heading="Core Colors" />
             <ExampleSection>
               <div>
-                  <div className="subtitle1 top40">White</div>
+                  <div className="subtitle-large top40">White</div>
                   <div className="theme-colors">
                       <ComputedColorSwatch
                           className="white"
@@ -34,7 +34,7 @@ export const CoreColorsComponent: React.FC<Props> = ({}) => {
                           label="White Half"
                       />
                   </div>
-                  <div className="subtitle1 top40">Black</div>
+                  <div className="subtitle-large top40">Black</div>
                   <div className="theme-colors">
                       <ComputedColorSwatch
                           className="black"
@@ -45,7 +45,7 @@ export const CoreColorsComponent: React.FC<Props> = ({}) => {
                           label="Black Half"
                       />
                   </div>
-                  <div className="subtitle1 top40">Near Black</div>
+                  <div className="subtitle-large top40">Near Black</div>
                   <div className="theme-colors">
                       <ComputedColorSwatch
                           className="nearblack-bg"
@@ -56,7 +56,7 @@ export const CoreColorsComponent: React.FC<Props> = ({}) => {
               {swatchesObj.labels.map((swatchLabel) => {
                   return (
                       <div>
-                          <div className="subtitle1 top40">{swatchLabel}</div>
+                          <div className="subtitle-large top40">{swatchLabel}</div>
                           <div className="theme-colors">
                               {swatchesObj.shadeIds.map((shadeId) => {
                                   return (

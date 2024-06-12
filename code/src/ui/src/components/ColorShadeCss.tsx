@@ -105,7 +105,7 @@ export const ColorShadeCss: React.FC<Props> = ({className, name, id, lm, label, 
     return (
         <div className={className ?? ""} style={isBaseColor ? {paddingTop:"2px",paddingLeft:"4px",borderRadius:"8px",backgroundColor:"var(--primary-quarter"} : {}}>
             {label && <div className="caption text-center">{label}</div>}
-            {showId && <div className="subtitle1 text-center">{id}</div>}
+            {showId && <div className="subtitle-large text-center">{id}</div>}
             <div className="Hex" style={style}>Aa</div>
             {isBaseColor&&<div className="inserted-item text-center " id="color-id" style={{fontSize:"var(--caption-boldFontSize)",fontWeight:"var(--caption-boldFontWeight)"}}>Base</div>}
             {/* just to fix uppermargin */}

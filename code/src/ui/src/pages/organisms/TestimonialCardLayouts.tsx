@@ -27,10 +27,10 @@ export const TestimonialCardLayouts: React.FC<Props> = ({ }) => {
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
                 <div className={colorMode}></div>
-                <div className="demo-title subtitle1">Testimonial Cards</div>
+                <div className="demo-title subtitle-large">Testimonial Cards</div>
                 <TestimonialCards className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Testimonial Cards, Centered</div>
+                <div className="demo-title subtitle-large">Testimonial Cards, Centered</div>
                 <TestimonialCardsCentered className="top40" />
                 <p></p>
               </div>

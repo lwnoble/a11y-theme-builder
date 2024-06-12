@@ -28,13 +28,13 @@ export const TeamLayouts: React.FC<Props> = ({ }) => {
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
                 <div className={colorMode}></div>
-                <div className="demo-title subtitle1">Teams with X-Large Avatars</div>
+                <div className="demo-title subtitle-large">Teams with X-Large Avatars</div>
                 <TeamsXLarge className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Teams with Large Avatars</div>
+                <div className="demo-title subtitle-large">Teams with Large Avatars</div>
                 <TeamsLarge className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Teams with Medium Avatars</div>
+                <div className="demo-title subtitle-large">Teams with Medium Avatars</div>
                 <TeamsMedium className="top40" />
               </div>
           </div>

@@ -28,16 +28,16 @@ export const ImagesOnly: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                <div className="demo-title subtitle1">Single Image</div>
+                <div className="demo-title subtitle-large">Single Image</div>
                 <ImageLarge className="top40 "  />
                 <p></p>
-                <div className="demo-title subtitle1">Two Images</div>
+                <div className="demo-title subtitle-large">Two Images</div>
                 <TwoImages className="top40 "  />
                 <p></p>
-                <div className="demo-title subtitle1">Three Images</div>
+                <div className="demo-title subtitle-large">Three Images</div>
                 <ThreeImages className="top40 "  />
                 <p></p>
-                <div className="demo-title subtitle1">Four Images</div>
+                <div className="demo-title subtitle-large">Four Images</div>
                 <FourImages className="top40 " />
               </div>
           </div>

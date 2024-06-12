@@ -74,10 +74,18 @@ const App: React.FC<Props> = ({user}) => {
     /**
      * Render content
      */
+    document.body.dataset.background = 'default';
+    document.body.dataset.elevation = '0';
+    document.body.dataset.theme = 'innovation';
+    document.body.dataset.mode = 'light';
+    document.body.dataset.cognative = 'none';
+    document.body.dataset.platform = 'desktop';
+    document.body.dataset.spacing= 'extended';
+
     return (
         <BrowserRouter>
             { /* <ThemeProvider theme={customTheme}> */ }
-                <div className="App">
+                <div className="App" >
                     <Routes>
                         <Route path="/" element={<WelcomePage user={user} themeName={themeName} storage={storage} />} />
                         <Route path="designSystem/:designSystemName" element={<DesignSystemPage user={user} themeName={themeName} setThemeName={changeThemeName} storage={storage} />} />

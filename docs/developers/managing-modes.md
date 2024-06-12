@@ -37,7 +37,7 @@ These CSS variables are then available to be used by your component.  For exampl
 
 ```
 .button {
-  background: var(--button) !important;
+  background: var(--background-button) !important;
   color: var(--on-button) !important;
 }
 

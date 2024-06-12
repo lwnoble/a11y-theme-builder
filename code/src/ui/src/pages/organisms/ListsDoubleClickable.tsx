@@ -30,22 +30,22 @@ export const ListsDoubleClickable: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                  <div className="demo-title subtitle1">List, Standard</div>
+                  <div className="demo-title subtitle-large">List, Standard</div>
                   <ListDoubleClickable className="top40"  />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with avatars</div>
+                  <div className="demo-title subtitle-large">List, with avatars</div>
                   <ListDoubleAvatarClickable className="top40"  />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with images</div>
+                  <div className="demo-title subtitle-large">List, with images</div>
                   <ListDoubleImageClickable className="top40"  />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with wide images</div>
+                  <div className="demo-title subtitle-large">List, with wide images</div>
                   <ListDoubleImageWideClickable className="top40" />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with icons</div>
+                  <div className="demo-title subtitle-large">List, with icons</div>
                   <ListDoubleIconSmallClickable className="top40"  />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with wide icons</div>
+                  <div className="demo-title subtitle-large">List, with wide icons</div>
                   <ListDoubleIconLargeClickable className="top40"  />
                   <p></p>
               </div>

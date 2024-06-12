@@ -20,7 +20,7 @@ export const AvatarSingleComponent: React.FC<Props> = () => {
             <HeadingSection title="Desktop" heading="Avatars" />
             <ExampleSection>
               <h5>Standard Avatars</h5>
-              <div className="subtitle1">Avatars with Icons</div>
+              <div className="subtitle-large">Avatars with Icons</div>
               <Stack direction="row" spacing={1} alignItems="center">
                   <Avatar className="avatar xxs" />
                   <Avatar className="avatar xs" />
@@ -31,7 +31,7 @@ export const AvatarSingleComponent: React.FC<Props> = () => {
                   <Avatar className="avatar xxl" />
               </Stack>
 
-              <div className="subtitle1">Avatars with Images</div>
+              <div className="subtitle-large">Avatars with Images</div>
               <Stack direction="row" spacing={1} alignItems="center">
                   <Avatar className="avatar xxs" src="/profile.png" />
                   <Avatar className="avatar xs" src="/profile.png" />
@@ -44,14 +44,14 @@ export const AvatarSingleComponent: React.FC<Props> = () => {
 
               <h5>Clickable Avatars</h5>
               <div>Note: although these avatars look small they have a target area equal to your min target height.</div>
-              <div className="top40 subtitle1">Avatars with Icons</div>
+              <div className="top40 subtitle-large">Avatars with Icons</div>
               <Stack direction="row" spacing={1} alignItems="center">
                   <Avatar className="clickable avatar xxs" />
                   <Avatar className="clickable avatar xs" />
                   <Avatar className="clickable avatar sm" />
               </Stack>
 
-              <div className="subtitle1">Avatars with Images</div>
+              <div className="subtitle-large">Avatars with Images</div>
               <Stack direction="row" spacing={1} alignItems="center">
                   <Avatar className="clickable avatar xxs" src="/profile.png" />
                   <Avatar className="clickable avatar xs" src="/profile.png" />

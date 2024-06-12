@@ -17,7 +17,7 @@ export const HotlinksComponent: React.FC<Props> = ({}) => {
         <div>
             <HeadingSection title="Colors" heading="Hotlink Colors" />
             <ExampleSection>
-                <div className="subtitle1 top40">Colored Hotlinks</div>
+                <div className="subtitle-large top40">Colored Hotlinks</div>
                 <div className="theme-colors">
                     <ComputedHotlinkColorSwatch
                         className={"hotlink"}
@@ -35,7 +35,7 @@ export const HotlinksComponent: React.FC<Props> = ({}) => {
                         label={"Visited"}
                     />
                 </div>
-                <div className="subtitle1 top40">Dark Hotlinks</div>
+                <div className="subtitle-large top40">Dark Hotlinks</div>
                 <div className="theme-colors">
                     <ComputedHotlinkColorSwatch
                         containerClassName="white"
@@ -56,7 +56,7 @@ export const HotlinksComponent: React.FC<Props> = ({}) => {
                         label={"Visited"}
                     />
                 </div>
-                <div className="subtitle1 top40">White Hotlinks</div>
+                <div className="subtitle-large top40">White Hotlinks</div>
                 <div className="theme-colors">
                     <ComputedHotlinkColorSwatch
                         containerClassName="black"

@@ -10,19 +10,15 @@
 }
 
 body {
-    color: var(--on-background);
-    font-family: var(--body1FontFamily);
-    font-weight: var(--body1FontWeight);
-    font-size: calc(var(--zoom) * var(--body1FontSize));
-    line-height: calc(var(--zoom) * var(--body1LineHeight));
-    letter-spacing: var(--body1LetterSpacing)
+    color: var(--background-on-color);
+    font-family: var(--body-medium-font-family);
+    font-weight: var(--body-medium-font-weight);
+    font-size: var(--body-medium-font-size);
+    line-height: var(--body-medium-line-height);
+    letter-spacing: var(--body-medium-letter-spacing);
 }
 
-p {
-    padding: var(--p-padding) 0;
-}
-
-p a {
+ {
     font-weight: bold;
     cursor: pointer;
 }
@@ -97,11 +93,11 @@ p a:hover {
 .input-1 {
     width: 100%;
     height: 30px;
-    font-size: var(--baseFont);
+    font-size: var(--font-size-base-font);
     margin: 8px 0;
 }
 
 .darkmode .background, .darkmode.background {
-    background: var(--dm-background) !important;
-    color: var(--dm-on-background)  !important;
+    background: var(--background-color) !important;
+    color: var(--background-on-color)  !important;
 }

@@ -25,7 +25,7 @@ export const ThemeColorsComponent: React.FC<Props> = ({}) => {
             {swatchesObj.labels.map((swatchLabel) => {
                 return (
                     <div>
-                        <div className="subtitle1 top40">{swatchLabel}</div>
+                        <div className="subtitle-large top40">{swatchLabel}</div>
                         <div className="theme-colors">
                             {swatchesObj.shadeIds.map((shadeId) => {
                                 return (

@@ -17,8 +17,8 @@
     left: 0px;
     right: 0px;
     content: '';
-    background: var(--button) !important;
-    border-radius: calc(var(--radius-1) * var(--button-radius));
+    background: var(--background-button) !important;
+    border-radius: var(--button-radius));
     z-index: -1;
     font: var(--sm-buttonTypography);
     box-shadow: var(--button-shadow);
@@ -27,8 +27,8 @@
 
 .design-system-editor-right-content button.MuiButton-outlined::before {
     position: absolute;
-    border: calc(var(--border-1) * var(--button-border)) solid var(--button);
-    border-radius: calc(var(--radius-1) * var(--button-radius));
+    border: calc(var(--border-1) * var(--button-border)) solid var(--background-button);
+    border-radius: var(--button-radius));
     box-shadow: var(--button-shadow);
     top: 0;
     bottom: 0;
@@ -45,5 +45,5 @@
     background: transparent !important;
     box-shadow: var(--button-elevation), var(--button-bevel);
     height: calc(var(--sm-button-height) + 2px);
-    border: calc(var(--border-1) * var(--button-border)) solid var(--button)
+    border: calc(var(--border-1) * var(--button-border)) solid var(--background-button)
 }

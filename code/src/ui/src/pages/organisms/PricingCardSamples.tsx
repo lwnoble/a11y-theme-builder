@@ -28,7 +28,7 @@ export const PricingCardSamples: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                <div className="demo-title subtitle1">Pricing Cards</div>
+                <div className="demo-title subtitle-large">Pricing Cards</div>
                 <PricingCards />
               </div>
           </div>

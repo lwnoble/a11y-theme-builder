@@ -31,7 +31,7 @@ export const ButtonGroupsComponent: React.FC<Props> = ({ }) => {
         return (
             <div className="row">
                 <div className="col-12">
-                    <div className="subtitle1">{title}</div>
+                    <div className="subtitle-large">{title}</div>
                     <div className="buttonDemo">
                         <ButtonGroup orientation={orientation} variant={variant}>
                             <Button >No Icon</Button>

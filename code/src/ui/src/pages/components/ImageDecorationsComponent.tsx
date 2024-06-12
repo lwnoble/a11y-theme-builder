@@ -18,11 +18,11 @@ export const ImageDecorationsComponent: React.FC<Props> = (clickable) => {
         <div className="content">
         <HeadingSection title='Desktop' heading='Images'></HeadingSection>
         <ExampleSection>
-          <div className="subtitle1">Default</div>
+          <div className="subtitle-large">Default</div>
           <div className="standard-image top16 ">
             <img src="/sample.jpg" />
           </div>
-          <div className="subtitle1">Clickable</div>
+          <div className="subtitle-large">Clickable</div>
           <div className="standard-image clickable top16 ">
             <img  src="/sample.jpg" />
           </div>

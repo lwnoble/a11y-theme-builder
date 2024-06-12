@@ -36,40 +36,40 @@ export const CardsStandard: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                  <div className="demo-title subtitle1">Responsive, Left Aligned with Two Buttons</div>
+                  <div className="demo-title subtitle-large">Responsive, Left Aligned with Two Buttons</div>
                   <StandardCardsTwoButtons />
                   <p></p>
-                  <div className="demo-title subtitle1">Responsive,  Left Aligned with One Button</div>
+                  <div className="demo-title subtitle-large">Responsive,  Left Aligned with One Button</div>
                   <StandardCardsOneButton />
                   <p></p>
-                  <div className="demo-title subtitle1">Responsive,  Left Aligned  with Hotlink</div>
+                  <div className="demo-title subtitle-large">Responsive,  Left Aligned  with Hotlink</div>
                   <StandardCardsHotlink />
                   <p></p>
-                  <div className="demo-title subtitle1">Responsive,  Left Aligned  Clickable</div>
+                  <div className="demo-title subtitle-large">Responsive,  Left Aligned  Clickable</div>
                   <StandardCardsClickable />
                   <p></p>
-                  <div className="demo-title subtitle1">Center Aligned, Two Buttons</div>
+                  <div className="demo-title subtitle-large">Center Aligned, Two Buttons</div>
                   <StandardCardsCenteredTwoButtons />
                   <p></p>
-                  <div className="demo-title subtitle1">Center Aligned, One Button</div>
+                  <div className="demo-title subtitle-large">Center Aligned, One Button</div>
                   <StandardCardsCenteredOneButton  />
                   <p></p>
-                  <div className="demo-title subtitle1">Center Aligned, Hotlink</div>
+                  <div className="demo-title subtitle-large">Center Aligned, Hotlink</div>
                   <StandardCardsCenteredHotlink />
                   <p></p>
-                  <div className="demo-title subtitle1">Center Aligned, Clickable</div>
+                  <div className="demo-title subtitle-large">Center Aligned, Clickable</div>
                   <StandardCardsCenteredClickable  />
                   <p></p>
-                  <div className="demo-title subtitle1">Horizontal Scrolling Cards, Left Aligned with Two Buttons</div>
+                  <div className="demo-title subtitle-large">Horizontal Scrolling Cards, Left Aligned with Two Buttons</div>
                   <StandardCardsScrollingTwoButtons />
                   <p></p>
-                  <div className="demo-title subtitle1">Horizontal Scrolling Cards, Left Aligned with One Button</div>
+                  <div className="demo-title subtitle-large">Horizontal Scrolling Cards, Left Aligned with One Button</div>
                   <StandardCardsScrollingOneButton  />
                   <p></p>
-                  <div className="demo-title subtitle1">Horizontal Scrolling Cards, Left Aligned with Hotlink</div>
+                  <div className="demo-title subtitle-large">Horizontal Scrolling Cards, Left Aligned with Hotlink</div>
                   <StandardCardsScrollingHotlink  />
                   <p></p>
-                  <div className="demo-title subtitle1">Horizontal Scrolling Cards, Left Aligned with Clickable</div>
+                  <div className="demo-title subtitle-large">Horizontal Scrolling Cards, Left Aligned with Clickable</div>
                   <StandardCardsScrollingClickable />
               </div>
 

@@ -72,11 +72,11 @@ export const DisplayColorTheme: React.FC<Props> = ({ atom }) => {
                             </div>
                             <h6 className="top16">Gradients</h6>
                             <div className="formRow">
-                                <div className="subtitle1">Gradient 1</div>
+                                <div className="subtitle-large">Gradient 1</div>
                                 <div className="default-gradient gradient-1">Aa</div>
                             </div>
                             <div className="formRow">
-                                <div className="subtitle1">Gradient 2</div>
+                                <div className="subtitle-large">Gradient 2</div>
                                     <div className="default-gradient gradient-2">Aa</div>
                                 </div>
                             <div className="formRow top16">
@@ -96,7 +96,7 @@ export const DisplayColorTheme: React.FC<Props> = ({ atom }) => {
                                 </div>
                             </div>
                             <div className="formRow">
-                                <div className="subtitle1">Gradient Header Text</div>
+                                <div className="subtitle-large">Gradient Header Text</div>
                                 <h2 className="gradient-title">Sample Header</h2>
                             </div>
                             <div className="formRow">
@@ -151,11 +151,11 @@ export const DisplayColorTheme: React.FC<Props> = ({ atom }) => {
                             </div>
                             <h6 className="top16">Gradients</h6>
                             <div className="formRow">
-                                <div className="subtitle1">Gradient 1</div>
+                                <div className="subtitle-large">Gradient 1</div>
                                 <div className="default-gradient gradient-1">Aa</div>
                             </div>
                             <div className="formRow">
-                                <div className="subtitle1">Gradient 2</div>
+                                <div className="subtitle-large">Gradient 2</div>
                                     <div className="default-gradient gradient-2">Aa</div>
                                 </div>
                             <div className="formRow top16">
@@ -175,7 +175,7 @@ export const DisplayColorTheme: React.FC<Props> = ({ atom }) => {
                                 </div>
                             </div>
                             <div className="formRow">
-                                <div className="subtitle1">Gradient Header Text</div>
+                                <div className="subtitle-large">Gradient Header Text</div>
                                 <h2 className="default-gradient-title gradient-title">Sample Header</h2>
                             </div>
                             <div className="formRow">

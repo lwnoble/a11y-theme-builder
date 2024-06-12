@@ -27,7 +27,7 @@ export const HeroExample: React.FC<Props> = ({ }) => {
         <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
         </SectionColorModeSelector>
         <div className="section-demos" data-background={colorMode}>
-            <div className="demo-title subtitle1 top40">Standard Hero</div>
+            <div className="demo-title subtitle-large top40">Standard Hero</div>
             <Hero color={colorMode} >
               <Grid container spacing={2} columns={12} margin={2}>
                 <Grid xs={12}>
@@ -49,7 +49,7 @@ export const HeroExample: React.FC<Props> = ({ }) => {
               </Grid>
             </Hero>
             <div className="herowithOverlay" data-background={colorMode} >
-              <div className="demo-title subtitle1 top40">Hero with Background Image</div>
+              <div className="demo-title subtitle-large top40">Hero with Background Image</div>
               <HeroImage className="backgroundImage" data-background={colorMode}>
                 <svg className="image-overlay" width="100%" height="100%">
                   <defs>
@@ -91,7 +91,7 @@ export const HeroExample: React.FC<Props> = ({ }) => {
 
               </HeroImage>
             </div>
-            <div className="demo-title subtitle1 top40">Hero with Image</div>
+            <div className="demo-title subtitle-large top40">Hero with Image</div>
             <HeroInlineImage className="HeroInlineImage" data-background={colorMode} >
               <Grid container spacing={2} columns={12} margin={2}>
                 <Grid item xs={12}>
@@ -119,7 +119,7 @@ export const HeroExample: React.FC<Props> = ({ }) => {
                 </Grid>
               </Grid>
             </HeroInlineImage>
-              <div className="demo-title subtitle1 top40">Hero with Video</div>
+              <div className="demo-title subtitle-large top40">Hero with Video</div>
             <HeroVideo className="inlineVideo" data-background={colorMode} >
               <Grid container spacing={2} columns={12} margin={2}>
                 <Grid item xs={12}>
@@ -149,7 +149,7 @@ export const HeroExample: React.FC<Props> = ({ }) => {
               </Grid>
             </HeroVideo>
             <div className="herowithOverlay" >
-              <div className="demo-title subtitle1 backgroundVideo top40">Full Page Hero with Background Video</div>
+              <div className="demo-title subtitle-large backgroundVideo top40">Full Page Hero with Background Video</div>
               <HeroBackgroundVideo className="backgroundVideo"  data-background={colorMode}>
                 <video className="bgVideo" src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/blurry-trees.mov" autoPlay loop playsInline muted></video>
                 <div className="overlay-holder">

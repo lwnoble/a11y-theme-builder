@@ -88,7 +88,7 @@ export const GlowAtom: React.FC<Props> = ({ glowSettings }) => {
             <ExampleSection title="Glow Settings">
                 <div className="row">
                     <div className="col-6">
-                      <div className="subtitle1">Shadow Color</div>
+                      <div className="subtitle-large">Shadow Color</div>
                       <div className="form-row">
                       <InputLabel htmlFor='hexValue'>Hex Value</InputLabel>
                       <TextField
@@ -159,7 +159,7 @@ export const GlowAtom: React.FC<Props> = ({ glowSettings }) => {
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="subtitle1">Sample Glows</div>
+                        <div className="subtitle-large">Sample Glows</div>
                         <ExampleGlow className="glow-1" label="Glow 1"/>
                         <ExampleGlow className="glow-2" label="Glow 2"/>
                         <ExampleGlow className="glow-3" label="Glow 3"/>

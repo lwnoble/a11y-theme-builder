@@ -97,7 +97,7 @@ try {
             },
             //divider: "",
             background: {
-                default: getCssValue("--background"),
+                default: getCssValue("--background-color"),
             },
             error: {
                 main: getCssValue("--danger"),
@@ -124,121 +124,6 @@ try {
                 // activatedOpacity: "",
             },
         },
-        typography: {
-            // allVariants: {
-            //     color: "#000000"
-            // },
-            fontFamily: "var(--primaryFont)",
-            //htmlFontSize: "var(--baseFont)", // must be a number
-            htmlFontSize: parseInt(getCssValue("--baseFont")), // must be a number
-            //fontSize: "var(--baseFont)", // must be a number
-            fontSize: parseInt(getCssValue("--baseFont")), // must be a number
-            h1: {
-                fontSize: "var(--h1FontSize)",
-                fontWeight: "var(--h1FontWeight)",
-                letterSpacing: "var(--h1LetterSpacing)",
-                lineHeight: "var(--h1LineHeight)",
-                textDecoration: "var(--h1TextDecoration)",
-                textTransform: "var(--h1TextTransform)",
-            },
-            h2: {
-                fontSize: "var(--h2FontSize)",
-                fontWeight: "var(--h2FontWeight)",
-                letterSpacing: "var(--h2LetterSpacing)",
-                lineHeight: "var(--h2LineHeight)",
-                textDecoration: "var(--h2TextDecoration)",
-                textTransform: "var(--h2TextTransform)",
-            },
-            h3: {
-                fontSize: "var(--h3FontSize)",
-                fontWeight: "var(--h3FontWeight)",
-                letterSpacing: "var(--h3LetterSpacing)",
-                lineHeight: "var(--h3LineHeight)",
-                textDecoration: "var(--h3TextDecoration)",
-                textTransform: "var(--h3TextTransform)",
-            },
-            h4: {
-                fontSize: "var(--h4FontSize)",
-                fontWeight: "var(--h4FontWeight)",
-                letterSpacing: "var(--h4LetterSpacing)",
-                lineHeight: "var(--h4LineHeight)",
-                textDecoration: "var(--h4TextDecoration)",
-                textTransform: "var(--h4TextTransform)",
-            },
-            h5: {
-                fontSize: "var(--h5FontSize)",
-                fontWeight: "var(--h5FontWeight)",
-                letterSpacing: "var(--h5LetterSpacing)",
-                lineHeight: "var(--h5LineHeight)",
-                textDecoration: "var(--h5TextDecoration)",
-                textTransform: "var(--h5TextTransform)",
-            },
-            h6: {
-                fontSize: "var(--h6FontSize)",
-                fontWeight: "var(--h6FontWeight)",
-                letterSpacing: "var(--h6LetterSpacing)",
-                lineHeight: "var(--h6LineHeight)",
-                textDecoration: "var(--h6TextDecoration)",
-                textTransform: "var(--h6TextTransform)",
-            },
-            subtitle1: {
-                fontSize: "var(--subtitle1FontSize)",
-                fontWeight: "var(--subtitle1FontWeight)",
-                letterSpacing: "var(--subtitle1LetterSpacing)",
-                lineHeight: "var(--subtitle1LineHeight)",
-                textDecoration: "var(--subtitle1TextDecoration)",
-                textTransform: "var(--subtitle1TextTransform)",
-            },
-            subtitle2: {
-                fontSize: "var(--subtitle2FontSize)",
-                fontWeight: "var(--subtitle2FontWeight)",
-                letterSpacing: "var(--subtitle2LetterSpacing)",
-                lineHeight: "var(--subtitle2LineHeight)",
-                textDecoration: "var(--subtitle2TextDecoration)",
-                textTransform: "var(--subtitle2TextTransform)",
-            },
-            body1: {
-                fontSize: "var(--body1FontSize)",
-                fontWeight: "var(--body1FontWeight)",
-                letterSpacing: "var(--body1LetterSpacing)",
-                lineHeight: "var(--body1LineHeight)",
-                textDecoration: "var(--body1TextDecoration)",
-                textTransform: "var(--body1TextTransform)",
-            },
-            body2: {
-                fontSize: "var(--body2FontSize)",
-                fontWeight: "var(--body2FontWeight)",
-                letterSpacing: "var(--body2LetterSpacing)",
-                lineHeight: "var(--body2LineHeight)",
-                textDecoration: "var(--body2TextDecoration)",
-                textTransform: "var(--body2TextTransform)",
-            },
-            caption: {
-                fontSize: "var(--captionFontSize)",
-                fontWeight: "var(--captionFontWeight)",
-                letterSpacing: "var(--captionLetterSpacing)",
-                lineHeight: "var(--captionLineHeight)",
-                textDecoration: "var(--captionTextDecoration)",
-                textTransform: "var(--captionTextTransform)",
-            },
-            // button: {
-            //     /* fontStyle: "italic" */
-            // },
-            // overline: {
-            // },
-            // overlineLarge: {
-            //     fontFamily: "var(--primaryFont)",
-            //     fontWeight: "var(--fontWeight-3)",
-            //     fontSize: "calc(var(--baseFont) * .875)",
-            //     lineHeight: "var(--standard-LineHeight)",
-            //     letterSpacing: "1.5%",
-            //     textTransform: "uppercase",
-            // },
-        },
-        shape: {
-            //borderRadius:  parseInt(getCssValue("--radius-2")), // must be a number
-            //borderRadius:  "var(--radius-2)",
-        },
         components: {
             MuiButtonBase: {
                 defaultProps: {
@@ -258,34 +143,34 @@ try {
                 styleOverrides: {
                     root: ({ ownerState }) => ({
                         ...(ownerState.variant === 'contained' && {
-                                color: "var(--on-button)",
-                                background: "var(--button)",
+                                color: "var(--background-on-button)",
+                                background: "var(--background-button)",
                             }),
                         ...(ownerState.variant === 'text' && {
-                                color: "var(--button)",
-                                background: "var(--on-button)"
+                                color: "var(--background-hotlink)",
+                                background: "var(--background-color)"
                             }),
                         ...(ownerState.variant === 'outlined' && {
-                                color: "var(--button) !important",
+                                color: "var(--background-button) !important",
                                 background: "none !important",
                             }),
-                        borderRadius: "calc(var(--radius-1) * var(--button-radius))",
-                        boxShadow: "var(--button-shadow)",
-                        font: "var(--buttonTypography)",
-                        letterSpacing: "var(--buttonCharcterSpacing)",
-                        minHeight: "max(var(--min-target), calc(var(--button-height) * var(--spacing-1))) !important",
-                        minWidth: "calc(var(--spacing-1) * var(--button-minwidth))",
+                        borderRadius: "var(--button-radius))",
+                        boxShadow: "var(--background-shadow)",
+                        font: "var(--background-buttonTypography)",
+                        letterSpacing: "var(--background-button-letter-spacing)",
+                        minHeight: "max(var(--sizing-min-target), calc(var(--button-height)  * var(--sizing-1)) !important",
+                        minWidth: "var(--button-min-width)",
                         marginTop: "var(--spacing-half)",
                         /*
-                        paddingLeft: "var(--spacing-3)", // var(--button-padding) // this is too small & not in px
+                        paddingLeft: "var(--spacing-3)", // var(--background-button-padding) // this is too small & not in px
                         paddingRight: "var(--spacing-3)",
                         */
-                       padding: "0 calc(var(--spacing-1) * var(--button-padding))",
-                       textDecoration: "var(--buttonTextDecoration)",
-                       textTransform: "var(--buttonTextTransform)",
+                       padding: "0 calc(var(--button-padding) * var(--sizing-1))",
+                       textDecoration: "var(--button-text-decoration)",
+                       textTransform: "var(--button-)",
                         // ":hover": {
-                        //     background: "var(--on-button)",
-                        //     color: "var(--button)",
+                        //     background: "var(--background-on-button)",
+                        //     color: "var(--background-button)",
                         // },
                     }),
                 }
@@ -323,17 +208,17 @@ try {
             MuiCheckbox: {
                 styleOverrides: {
                     root: {
-                        padding: "0 calc(var(--min-target) + var(--spacing-1))",
+                        padding: "0 calc(var(--sizing-min-target) + var(--spacing-1))",
                         margin: "var(--spacing-half) 0",
-                        height: "var(--min-target)",
-                        width: "var(--min-target)",
+                        height: "var(--sizing-min-target)",
+                        width: "var(--sizing-min-target)",
                         padding: 0,
                         "&.MuiCheckbox-root": {
                             backgroundColor: "var(--input)",
                             color: "var(--on-background)",
                         },
                         "&.Mui-checked": {
-                            color: "var(--button) !important",
+                            color: "var(--background-button) !important",
                         },
                     }
                 }
@@ -366,13 +251,13 @@ try {
                         "&.dropdownFocus": {
                           borderRadius: "var(--spacing-1)",
                           "&.Mui-focused fieldset": {
-                            border: '1px auto var(--button)',
-                            boxShadow: '0 0 var(--focusBlur) 1px var(--button-half)',
+                            border: '1px auto var(--background-button)',
+                            boxShadow: '0 0 var(--focusBlur) 1px var(--background-button-half)',
                           },
                         },
                         "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                            border: '1px solid var(--button)',
-                            boxShadow: '0 0 var(--focusBlur) 1px var(--button-half)',
+                            border: '1px solid var(--background-button)',
+                            boxShadow: '0 0 var(--focusBlur) 1px var(--background-button-half)',
                         },
                         "& fieldset": {
                           border: '1px solid var(--border)',
@@ -414,13 +299,13 @@ try {
                                 },
                                 '& .MuiList-root.MuiMenu-list .MuiMenuItem-root': {
                                     color: "var(--on-background)",
-                                    minHeight: "var(--min-target)",
+                                    minHeight: "var(--sizing-min-target)",
                                     display: "flex",
                                     gap: "var(--spacing-1)",
                                     opacity: "var(--quiet)",
                                     '& .MuiButtonBase': {
                                       padding: "0px",
-                                      width: "var(--min-target)",
+                                      width: "var(--sizing-min-target)",
                                     },
 
                                 },
@@ -429,17 +314,17 @@ try {
                                 },
                                 '& .MuiList-root.MuiMenu-list .MuiMenuItem-root:hover': {
                                     background: "transparent",
-                                    borderLeft: "4x solid var(--button-half)",
+                                    borderLeft: "4x solid var(--background-button-half)",
                                     opacity: "1",
                                 },
                                 '& .MuiList-root.MuiMenu-list .MuiMenuItem-root:focus': {
                                     background: "transparent",
-                                    borderLeft: "4x solid var(--button)",
+                                    borderLeft: "4x solid var(--background-button)",
                                     opacity: "1",
                                 },
                                 '& .MuiList-root.MuiMenu-list .MuiMenuItem-root.Mui-selected': {
                                     background: "transparent",
-                                    borderLeft: "4x solid var(--button)",
+                                    borderLeft: "4x solid var(--background-button)",
                                     opacity: "1",
                                 },
                                 borderRadius: "var(--spacing-half)",
@@ -450,8 +335,8 @@ try {
                 styleOverrides: {
                     root: {
                         borderRadius: "var(--spacing-half)",
-                        minHeight: "calc(var(--spacing-1) * var(--button-height))",
-                        minWidth: "calc(var(--spacing-1) * var(--button-minwidth))",
+                        minHeight: "calc(var(--sizing-1) * var(--button-height))",
+                        minWidth: "calc(var(--sizing-1) * var(--button-min-width))",
                         background: "var(--input)",
                         // border: "1px solid var(--border)",
                         position: "relative",
@@ -463,8 +348,8 @@ try {
                         "& svg path": {
                           fill: "var(--on-background)",
                         },
-                        minHeight: "var(--min-target)",
-                        lineHeight: "var(--min-target)",
+                        minHeight: "var(--sizing-min-target)",
+                        lineHeight: "var(--sizing-min-target)",
                     },
                 }
             },
@@ -473,14 +358,14 @@ try {
                     root: {
                         color: "inherit",
                         "&.Mui-checked":{
-                            color: "var(--button)",
+                            color: "var(--background-button)",
                         },
                         "&.Mui-checked.Mui-disabled":{
-                            color: "var(--button)",
+                            color: "var(--background-button)",
                         },
                     },
                     "& span":{
-                        border: "var(--focusBorder) solid var(--button)",
+                        border: "var(--focusBorder) solid var(--background-button)",
                         borderRadius: "100%",
                     },
                 },
@@ -490,7 +375,7 @@ try {
                     root: {
                         color: "var(--on-background)",
                         "&.Mui-checked":{
-                            color: "var(--button)",
+                            color: "var(--background-button)",
                         },
                     },
                 },
@@ -505,7 +390,7 @@ try {
             MuiSwitch: {
                 styleOverrides: {
                     root: {
-                        height: "var(--min-target)",
+                        height: "var(--sizing-min-target)",
                         padding: "0",
                         position: "relative",
                         overflow: "visible !important",
@@ -513,11 +398,11 @@ try {
                         alignItems: "center",
                     },
                     "& .MuiSwitch-switchBase": {
-                        backgroundColor: "var(--button)",
-                        color: "var(--button)",
+                        backgroundColor: "var(--background-button)",
+                        color: "var(--background-button)",
                         "&.Mui-checked": {
-                            backgroundColor: "var(--button)",
-                            color: "var(--button)",
+                            backgroundColor: "var(--background-button)",
+                            color: "var(--background-button)",
                         },
                     },
                 },
@@ -542,7 +427,7 @@ try {
                   root: {
                       //fontFamily: "Ariel", //"var(--fontFamily)",
                       borderRadius: "var(--spacing-half)",
-                      padding: "var(spacing-1)",
+                      padding: "var(--spacing-0)",
                       "& .MuiInputBase-root": {
                           borderRadius: "var(--spacing-half)",
                       },
@@ -577,8 +462,8 @@ try {
                             color: "var(--on-color)",
                         },
                         "& .MuiInputBase-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                            border: '1px solid var(--button)',
-                            boxShadow: '0 0 var(--focusBlur) 1px var(--button-half)',
+                            border: '1px solid var(--background-button)',
+                            boxShadow: '0 0 var(--focusBlur) 1px var(--background-button-half)',
                         },
                     }
                 }
@@ -626,7 +511,7 @@ try {
             "& .MuiTab-wrapper": {
                 flexDirection: "row",
                 justifyContent: "flex-start",
-                background: "var(--button)",
+                background: "var(--background-button)",
             },
             MuiAccordion: {
                 styleOverrides: {
@@ -645,7 +530,7 @@ try {
                             fill: "var(--on-surface)" ,
                         },
                         "& .MuiAccordionSummary-root": {
-                          minHeight: "var(--min-target)",
+                          minHeight: "var(--sizing-min-target)",
                           padding: "0 var(--spacing-2)",
                           background: "none"
 
@@ -662,9 +547,9 @@ try {
                         background: "var(--transparent)",
                         padding: "var(-spacing-1) 0",
                         "& .MuiTabs-indicator": {
-                            background: "var(--on-background)" ,
+                            background: "var(--button) !important" ,
                             height: "4px",
-                            bottom:   "0px !important",
+                            bottom:   "2px !important",
                         },
 
                     }
@@ -681,15 +566,17 @@ try {
                         fontSize: "--CTAFontSize", //"calc(var(--baseFont)* .875)",
                         opacity: "var(--quiet)",
                         padding: "0 var(--spacing-2)",
-                        minHeight: "max(var(--min-target), calc(calc(var(--button-height) * var(--spacing-1)) + 4px))",
+                        minHeight: "max(var(--sizing-min-target), calc(calc(var(--button-height) * var(--spacing-1)) + 4px))",
                         "&:hover": {
-                            opacity: "1"
+                            opacity: "1",
+                            background: "var(--backround-color) !important"
                         },
                         "&:focus": {
                             opacity: "1"
                         },
                         "&.Mui-selected, &.Mui-selected:hover": {
-                            opacity: "1"
+                            opacity: "1",
+                            color: "var(--on-color) !important"
                         },
                         "&::after": {
                           height: "var(--spacing-half)",
@@ -709,12 +596,12 @@ try {
                           left: "0",
                           right: "0",
                           bottom: "2px",
-                          opacity: "1",
+                          opacity: ".5",
                           content: "''",
                           position: "absolute",
                           border: "none",
                           top: "unset",
-                          borderBottom: "4px solid var(--button-half)",
+                          borderBottom: "4px solid var(--background-button-half)",
                           borderRadius: "0px",
                         },
                         "&:focus::after": {
@@ -727,7 +614,7 @@ try {
                           position: "absolute",
                           border: "none",
                           top: "unset",
-                          borderBottom: "4px solid var(--button)",
+                          borderBottom: "4px solid var(--background-button)",
                           borderRadius: "0px",
 
                         },
@@ -769,15 +656,15 @@ try {
                 styleOverrides: {
                     root: {
                       padding: "0",
-                      minWidth: "var(--min-target)",
-                      minHeight: "max(var(--min-target), calc(var(--button-height) * var(--spacing-1))) !important",
+                      minWidth: "var(--sizing-min-target)",
+                      minHeight: "max(var(--sizing-min-target), calc(var(--button-height) * var(--spacing-1))) !important",
                       borderRadius: "calc( var(--radius-1) * var(--button-radius))",
                       background: "var(--transparent) !important",
-                      color: "var(--button) !important",
-                      border: "calc(var(--border-1) * var(--button-border)) solid var(--button)",
+                      color: "var(--background-button) !important",
+                      border: "calc(var(--border-1) * var(--background-button-border)) solid var(--background-button)",
                       "&.Mui-selected": {
-                        background: "var(--button) !important",
-                        color: "var(--on-button) !important",
+                        background: "var(--background-button) !important",
+                        color: "var(--background-on-button) !important",
                       },
                       "& span": {
                         padding: "0 var(--spacing-half)",
@@ -804,19 +691,19 @@ try {
                             styleOverrides: {
                               root: {
                                 borderLeft: "4px solid transparent !important" ,
-                                minHeight: "var(--min-target) !important" ,
+                                minHeight: "var(--sizing-min-target) !important" ,
                               },
                               "&:hover": {
                                 styleOverrides: {
                                     root: {
-                                      borderLeft: "4px solid var(--button-half) !important",
+                                      borderLeft: "4px solid var(--background-button-half) !important",
                                     }
                                 }
                               },
                               "&:active, &:focus": {
                                 styleOverrides: {
                                     root: {
-                                      borderLeft: "4px solid var(--button)  !important",
+                                      borderLeft: "4px solid var(--background-button)  !important",
                                     }
                                 }
                               }
@@ -924,39 +811,39 @@ try {
             MuiSlider: {
               styleOverrides: {
                   root: {
-                    height: "var(--min-target)",
+                    height: "var(--sizing-min-target)",
                     "& .MuiSlider-rail": {
                        height: "calc(var(--sliderbarHeight) * var(--spacing-1))",
-                       borderRadius: "calc(var(--sliderhandleRadius) * var(--radius-1))",
+                       borderRadius: "calc(var(--slider-handle-radius) * var(--radius-1))",
                        boxShadow: "var(--sliderbar-shadow)",
-                       marginTop: "  margin-top: calc( calc(var(--min-target) - calc( var(--sliderbarHeight) * var(--spacing-1) ))/2)",
+                       marginTop: "  margin-top: calc( calc(var(--sizing-min-target) - calc( var(--sliderbarHeight) * var(--spacing-1) ))/2)",
                        background: "var(--on-background)",
                        opacity: "var(--disabled)",
                     },
                     "& .MuiSlider-track": {
-                       backgroundColor: "var(--button)",
+                       backgroundColor: "var(--background-button)",
                        height: "calc(var(--sliderbarHeight) * var(--spacing-1))",
-                       marginTop: "  margin-top: calc( calc(var(--min-target) - calc( var(--sliderbarHeight) * var(--spacing-1) ))/2)",
+                       marginTop: "  margin-top: calc( calc(var(--sizing-min-target) - calc( var(--sliderbarHeight) * var(--spacing-1) ))/2)",
                     },
                     "& .MuiSlider-thumb": {
                         height: "calc(var(--sliderhandleHeight) * var(--spacing-1))",
                         width: "calc(var(--sliderhandleHeight) * var(--spacing-1) )",
-                        borderRadius: "calc(var(--sliderhandleRadius) * var(--radius-1))",
-                       backgroundColor: "var(--button)",
+                        borderRadius: "calc(var(--slider-handle-radius) * var(--radius-1))",
+                       backgroundColor: "var(--background-button)",
                        position: "absolute",
                        top: "50%",
                        transform: "translate(0, -50%)",
                        "&::after": {
                          position: "absolute",
-                         height: "var(--min-target)",
-                         width: "var(--min-target)",
+                         height: "var(--sizing-min-target)",
+                         width: "var(--sizing-min-target)",
                          right: "calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)))",
                          bottom: "calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)))",
                          content: "''",
                          background: '#000000',
                          pointerEvents: "none",
-                         borderRadius: "calc(calc(var(--sliderhandleRadius) * var(--radius-1))  + 1.6px)",
-                         border: "var(--focusBorder) solid var(--button)",
+                         borderRadius: "calc(calc(var(--slider-handle-radius) * var(--radius-1))  + 2px)",
+                         border: "var(--focusBorder) solid var(--background-button)",
                          background: "transparent !important",
                          opacity: "0",
                          transition: "var(--animation-speed) cubic-bezier(0.68, -0.55, 0.265, 1.55) all",
@@ -997,18 +884,18 @@ try {
                         letterSpacing: "var(--chipLetterSpacing)",
                         textDecoration: "var(--chipTextDecoration)",
                         textTransform: "var(--chipTextTransform)",
-                        minWidth: "max(var(--min-target), var(--chip-minwidth)) !important",
-                        minHeight: "max(var(--min-target), calc(var(--chip-height) * var(--spacing-1))) !important",
+                        minWidth: "max(var(--sizing-min-target), var(--chip-minwidth)) !important",
+                        minHeight: "max(var(--sizing-min-target), calc(var(--chip-height) * var(--spacing-1))) !important",
 
                         "&::after": {
                             position: "absolute",
-                            top:    "calc(((var(--min-target) - (var(--spacing-1) * var(--chip-height)))/2) - (var(--border-1) * 2) - 3px - var(--animation-focus-distance) - 2px)",
-                            bottom: "calc(((var(--min-target) - (var(--spacing-1) * var(--chip-height)))/2) - (var(--border-1) * 2) - 1px - var(--animation-focus-distance) - 2px)",
+                            top:    "calc(((var(--sizing-min-target) - (var(--spacing-1) * var(--chip-height)))/2) - (var(--border-1) * 2) - 3px - var(--animation-focus-distance) - 2px)",
+                            bottom: "calc(((var(--sizing-min-target) - (var(--spacing-1) * var(--chip-height)))/2) - (var(--border-1) * 2) - 1px - var(--animation-focus-distance) - 2px)",
                             padding: "0 calc(var(--spacing-1) * var(--chip-padding))",
                             left: "calc(-2px - calc(var(--border-1) * 2) - var(--animation-focus-distance))",
                             right: "calc(-2px - calc(var(--border-1) * 2) - var(--animation-focus-distance))",
-                            borderRadius: "calc(var(--button-radius) * var(--radius-1) + 1.6px)",
-                            border: "calc(var(--border-1) * var(--button-border)) solid var(--button)",
+                            borderRadius: "calc(var(--button-radius) * var(--radius-1) + 2px)",
+                            border: "calc(var(--border-1) * var(--background-button-border)) solid var(--background-button)",
                             background: "transparent !important",
                             opacity: 0,
                             content: '""',
@@ -1016,32 +903,32 @@ try {
                         },
                         "&::before": {
                             position: "absolute",
-                            top:    "calc((var(--min-target) - (var(--spacing-1) * var(--chip-height)))/2)",
-                            bottom: "calc((var(--min-target) - (var(--spacing-1) * var(--chip-height)))/2)",
+                            top:    "calc((var(--sizing-min-target) - (var(--spacing-1) * var(--chip-height)))/2)",
+                            bottom: "calc((var(--sizing-min-target) - (var(--spacing-1) * var(--chip-height)))/2)",
                             padding: "0 calc(var(--spacing-1) * var(--chip-padding))",
                             left: "0px",
                             right: "0px",
                             content: '""',
                             background: "var(--transparent)",
                             boxShadow: "var(--chip-shadow)",
-                            color: "var(--on-button)",
-                            borderRadius: "calc(var(--button-radius) * var(--radius-1) + 1.6px)",
+                            color: "var(--background-on-button)",
+                            borderRadius: "calc(var(--button-radius) * var(--radius-1) + 2px)",
                             zIndex: -1,
-                            border: "calc(var(--border-1) * var(--button-border)) solid var(--button)",
+                            border: "calc(var(--border-1) * var(--background-button-border)) solid var(--background-button)",
                             boxShadow: "var(--chip-shadow) !important",
-                            minHeight: "calc( calc( var(--chip-height) * var(--spacing-1) ) - calc( var(--border-1) * var(--button-border) * 2 ))",
+                            minHeight: "calc( calc( var(--chip-height) * var(--spacing-1) ) - calc( var(--border-1) * var(--background-button-border) * 2 ))",
                         },
                         "&:hover::after": {
                             opacity: ".5",
-                            top:    "calc(((var(--min-target) - (var(--spacing-1) * var(--chip-height)))/2) - 3px)",
-                            bottom: "calc(((var(--min-target) - (var(--spacing-1) * var(--chip-height)))/2) - 3px)",
+                            top:    "calc(((var(--sizing-min-target) - (var(--spacing-1) * var(--chip-height)))/2) - 3px)",
+                            bottom: "calc(((var(--sizing-min-target) - (var(--spacing-1) * var(--chip-height)))/2) - 3px)",
                             left: "calc(-1px - calc(var(--border-1) * 2))",
                             right: "calc(-1px - calc(var(--border-1) * 2))",
                         },
                         "&:focus::after": {
-                            opacity: "var(--button)",
-                            top:    "calc(((var(--min-target) - (var(--spacing-1) * var(--chip-height)))/2) - 3px)",
-                            bottom: "calc(((var(--min-target) - (var(--spacing-1) * var(--chip-height)))/2) - 3px)",
+                            opacity: "var(--background-button)",
+                            top:    "calc(((var(--sizing-min-target) - (var(--spacing-1) * var(--chip-height)))/2) - 3px)",
+                            bottom: "calc(((var(--sizing-min-target) - (var(--spacing-1) * var(--chip-height)))/2) - 3px)",
                             left: "calc(-2px - calc(var(--border-1) * 2))",
                             right: "calc(-2px - calc(var(--border-1) * 2))",
                         },
@@ -1094,21 +981,21 @@ try {
                     root: {
                       backgroundColor: "var(--transparent)",
                       boxShadow: "var(--avatar-shadow)",
-                      border: "solid calc(var(--border-1) * var(--avatar-border-lg)) var(--button) !important",
+                      border: "solid calc(var(--border-1) * var(--avatar-border-lg)) var(--background-button) !important",
                       "&.xxs": {
-                        border: "solid calc(var(--border-1) * var(--avatar-border)) var(--button) !important",
+                        border: "solid calc(var(--border-1) * var(--avatar-border)) var(--background-button) !important",
                       },
                       "&.xs": {
-                        border: "solid calc(var(--border-1) * var(--avatar-border)) var(--button) !important",
+                        border: "solid calc(var(--border-1) * var(--avatar-border)) var(--background-button) !important",
                       },
                       "&.sm": {
-                        border: "solid calc(var(--border-1) * var(--avatar-border)) var(--button) !important",
+                        border: "solid calc(var(--border-1) * var(--avatar-border)) var(--background-button) !important",
                       },
                       "&.md": {
-                        border: "solid calc(var(--border-1) * var(--avatar-border)) var(--button) !important",
+                        border: "solid calc(var(--border-1) * var(--avatar-border)) var(--background-button) !important",
                       },
                       "& svg path": {
-                          fill: "var(--on-button)",
+                          fill: "var(--background-on-button)",
                       },
                       "&.black" : {
                         background: "var(--black)",

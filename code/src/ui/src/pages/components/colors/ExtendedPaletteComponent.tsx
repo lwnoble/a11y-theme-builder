@@ -24,7 +24,7 @@ export const ExtendedPaletteComponent: React.FC<Props> = ({designSystem}) => {
                 {_colorPalette.getColors().map((color) => {
                     return (
                         <div>
-                            <div className="subtitle1 top40">{color.name}</div>
+                            <div className="subtitle-large top40">{color.name}</div>
                             <div className="theme-colors">
                                 {color.light.shades.map((shade) => {
                                     return (

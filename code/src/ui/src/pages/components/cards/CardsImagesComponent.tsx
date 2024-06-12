@@ -25,42 +25,42 @@ export const CardsImagesComponent: React.FC<Props> = () => {
             <CardColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
             </CardColorModeSelector>
             <ExampleSection>
-              <div className="top40 subtitle1">Left Aligned 9:16 Ratio with two Buttons</div>
+              <div className="top40 subtitle-large">Left Aligned 9:16 Ratio with two Buttons</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Left Aligned 9:16 Ratio with one Button</div>
+              <div className="top40 subtitle-large">Left Aligned 9:16 Ratio with one Button</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg"  hideSecondary={true}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Left Aligned 9:16 Ratio with hotlink</div>
+              <div className="top40 subtitle-large">Left Aligned 9:16 Ratio with hotlink</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg" hotlink={true} hideSecondary={true}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Left Aligned 9:16 Ratio, clickable</div>
+              <div className="top40 subtitle-large">Left Aligned 9:16 Ratio, clickable</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg" hotlink={true} clickable={true}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Center Aligned 9:16 Ratio with two Buttons</div>
+              <div className="top40 subtitle-large">Center Aligned 9:16 Ratio with two Buttons</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg" className="centerAligned">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Center Aligned 9:16 Ratio with one Button</div>
+              <div className="top40 subtitle-large">Center Aligned 9:16 Ratio with one Button</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg" hideSecondary={true} className="centerAligned">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Center Aligned 9:16 Ratio with hotlink</div>
+              <div className="top40 subtitle-large">Center Aligned 9:16 Ratio with hotlink</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg" hideSecondary={true} hotlink={true} className="centerAligned">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua
               </CardSample>
-              <div className="top40 subtitle1">Center Aligned 9:16 Ratio, clickable</div>
+              <div className="top40 subtitle-large">Center Aligned 9:16 Ratio, clickable</div>
               <CardSample color={colorMode} title="Title" imagePath="/sample.jpg" hideSecondary={true} hotlink={true} className="centerAligned" clickable={true}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt magna aliqua

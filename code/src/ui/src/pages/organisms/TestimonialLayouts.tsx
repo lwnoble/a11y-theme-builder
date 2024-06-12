@@ -26,7 +26,7 @@ export const TestimonialLayouts: React.FC<Props> = ({ }) => {
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
                 <div className={colorMode}></div>
-                <div className="demo-title subtitle1">Testimonial, Large</div>
+                <div className="demo-title subtitle-large">Testimonial, Large</div>
                 <Testimonial className="top40" />
                 <p></p>
               </div>

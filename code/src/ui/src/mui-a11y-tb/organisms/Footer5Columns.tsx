@@ -25,7 +25,7 @@ export const Footer5Columns: React.FC<Props> = ({className}) => {
               </div>
             </Grid>
             <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-              <div className="subtitle1">Catagory Title</div>
+              <div className="subtitle-large">Catagory Title</div>
               <div className="list-content">
                 <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                 <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
@@ -34,7 +34,7 @@ export const Footer5Columns: React.FC<Props> = ({className}) => {
               </div>
             </Grid>
             <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-              <div className="subtitle1">Catagory Title</div>
+              <div className="subtitle-large">Catagory Title</div>
               <div className="list-content">
                 <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                 <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
@@ -46,17 +46,7 @@ export const Footer5Columns: React.FC<Props> = ({className}) => {
               </div>
             </Grid>
             <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-              <div className="subtitle1">Catagory Title</div>
-              <div className="list-content">
-                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
-              </div>
-            </Grid>
-            <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-              <div className="subtitle1">Catagory Title</div>
+              <div className="subtitle-large">Catagory Title</div>
               <div className="list-content">
                 <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                 <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
@@ -66,7 +56,17 @@ export const Footer5Columns: React.FC<Props> = ({className}) => {
               </div>
             </Grid>
             <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
-              <div className="subtitle1">Catagory Title</div>
+              <div className="subtitle-large">Catagory Title</div>
+              <div className="list-content">
+                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+                <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
+              </div>
+            </Grid>
+            <Grid item spacing={2}  className="v-center" lg={1} sm={1}>
+              <div className="subtitle-large">Catagory Title</div>
               <div className="list-content">
                 <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>
                 <ListComponent isClickable={true} type={1} title={'Section'}  overline={''}  body={''}  ></ListComponent>

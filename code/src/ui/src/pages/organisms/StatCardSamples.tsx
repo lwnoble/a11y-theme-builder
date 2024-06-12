@@ -36,40 +36,40 @@ export const StatCardSamples: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                <div className="demo-title subtitle1">Responsive, Left Aligned with  Two Buttons</div>
+                <div className="demo-title subtitle-large">Responsive, Left Aligned with  Two Buttons</div>
                 <StatCardsTwoButtons className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Responsive, Left Aligned with One Button</div>
+                <div className="demo-title subtitle-large">Responsive, Left Aligned with One Button</div>
                 <StatCardsOneButton className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Responsive, Left Aligned with Hotlink</div>
+                <div className="demo-title subtitle-large">Responsive, Left Aligned with Hotlink</div>
                 <StatCardsHotlink className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Responsive, Left Aligned, Clickable</div>
+                <div className="demo-title subtitle-large">Responsive, Left Aligned, Clickable</div>
                 <StatCardsClickable className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Center Aligned with Two Buttons</div>
+                <div className="demo-title subtitle-large">Center Aligned with Two Buttons</div>
                 <StatCardsCenteredTwoButtons className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Center Aligned  with One Button</div>
+                <div className="demo-title subtitle-large">Center Aligned  with One Button</div>
                 <StatCardsCenteredOneButton className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Center Aligned  with Hotlink</div>
+                <div className="demo-title subtitle-large">Center Aligned  with Hotlink</div>
                 <StatCardsCenteredHotlink className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Center Aligned,Clickable</div>
+                <div className="demo-title subtitle-large">Center Aligned,Clickable</div>
                 <StatCardsCenteredClickable className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Horizontal Scrolling Stat Cards with Two Buttons</div>
+                <div className="demo-title subtitle-large">Horizontal Scrolling Stat Cards with Two Buttons</div>
                 <StatCardsScrollingTwoButtons className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Horizontal Scrolling Stat Cards with One Button</div>
+                <div className="demo-title subtitle-large">Horizontal Scrolling Stat Cards with One Button</div>
                 <StatCardsScrollingOneButton className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Horizontal Scrolling Stat Cards with Hotlink</div>
+                <div className="demo-title subtitle-large">Horizontal Scrolling Stat Cards with Hotlink</div>
                 <StatCardsScrollingHotlink className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Horizontal Scrolling Stat Cards, Clickable</div>
+                <div className="demo-title subtitle-large">Horizontal Scrolling Stat Cards, Clickable</div>
                 <StatCardsScrollingClickable className="top40" />
                 <p></p>
               </div>

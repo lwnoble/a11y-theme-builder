@@ -17,7 +17,7 @@ export const TextComponent: React.FC<Props> = ({}) => {
         <div>
             <HeadingSection title="Colors" heading="Text Colors" />
             <ExampleSection>
-                <div className="subtitle1 top40">Dark Text</div>
+                <div className="subtitle-large top40">Dark Text</div>
                 <div className="theme-colors">
                     <ComputedTextColorSwatch
                         colorSampleClassName={"black"}
@@ -37,7 +37,7 @@ export const TextComponent: React.FC<Props> = ({}) => {
                         label="Disabled"
                     />
                 </div>
-                <div className="subtitle1 top40">White Text</div>
+                <div className="subtitle-large top40">White Text</div>
                 <div className="theme-colors">
                     <ComputedTextColorSwatch
                         containerClassName="black"
@@ -60,7 +60,7 @@ export const TextComponent: React.FC<Props> = ({}) => {
                         label="Disabled"
                     />
                 </div>
-                <div className="subtitle1 top40">State Text</div>
+                <div className="subtitle-large top40">State Text</div>
                 <div className="theme-colors">
                     <ComputedTextColorSwatch
                         textSampleClassName={"info-text"}

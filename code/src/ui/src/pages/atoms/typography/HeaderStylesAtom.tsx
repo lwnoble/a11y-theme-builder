@@ -182,7 +182,7 @@ export const HeaderStylesAtom: React.FC<Props> = ({ designSystem }) => {
                     />
                     <div className="row">
                         <div className="col-12">
-                            <div className="subtitle1 quiet">
+                            <div className="subtitle-large quiet">
                                 Header Styles
                             </div>
                         </div>

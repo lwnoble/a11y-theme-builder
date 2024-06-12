@@ -20,16 +20,16 @@ export const DividerComponent: React.FC<Props> = () => {
             <HeadingSection title="Desktop" heading="Divider" />
 
             <ExampleSection>
-              <div className="subtitle1">Horizontal</div>
+              <div className="subtitle-large">Horizontal</div>
               <Divider  />
               <br /><br />
               <br /><br />
 
-              <div className="subtitle1">Horizontal and Wide</div>
+              <div className="subtitle-large">Horizontal and Wide</div>
               <Divider className="wide" />
               <br /><br />
               <br /><br />
-              <div className="subtitle1">Vertical</div>
+              <div className="subtitle-large">Vertical</div>
               <div className="vertical-line"  />
               <br /><br />
               <br /><br />

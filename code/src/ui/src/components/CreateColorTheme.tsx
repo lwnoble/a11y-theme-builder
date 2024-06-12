@@ -130,7 +130,7 @@ export const CreateColorTheme: React.FC<Props> = ({atom,colorPalette, handleDefa
                       <div className="row">
                           <div className="col-12">
                               <div className="formRow">
-                                  <div className="subtitle1">Theme Colors</div>
+                                  <div className="subtitle-large">Theme Colors</div>
                                   <div className="form-columns top16">
                                       <ColorSelect value={_colorTheme.primary} baseColorHex={_baseColorsHex} label="Primary"></ColorSelect>
                                       <ColorSelect value={_colorTheme.secondary} baseColorHex={_baseColorsHex} label="Secondary"></ColorSelect>
@@ -138,41 +138,41 @@ export const CreateColorTheme: React.FC<Props> = ({atom,colorPalette, handleDefa
                                   </div>
                               </div>
                               <div className="formRow">
-                                  <div className="subtitle1">Light Mode Backgrounds</div>
+                                  <div className="subtitle-large">Light Mode Backgrounds</div>
                                   <div className="form-columns top16">
                                       <ColorPairSelect value={_colorTheme.lightModeBackground} label="Primary & Secondary Background Colors"></ColorPairSelect>
                                   </div>
                               </div>
                               <div className="formRow">
-                                  <div className="subtitle1">Dark Mode Backgrounds</div>
+                                  <div className="subtitle-large">Dark Mode Backgrounds</div>
                                   <div className="small">Note: Your dark mode background options are limited to colors in the 800 and 900 range of your color palette.</div>
                                   <div className="form-columns top16">
                                       <ColorPairSelect value={_colorTheme.darkModeBackground} label="Primary & Secondary Background Colors"></ColorPairSelect>
                                   </div>
                               </div>
                               <div className="formRow">
-                                  <div className="subtitle1">Gradient 1</div>
+                                  <div className="subtitle-large">Gradient 1</div>
                                   <div className="small">Note: The "To Color" will be limited to those colors with the same "On Color" or text color to make sure the gradiemt meets WCAG 2.1 AA contrast guidelines.</div>
                                   <div>
                                       <ColorGradient className="form-columns top16" value={_colorTheme.gradient1} />
                                   </div>
                               </div>
                               <div className="formRow">
-                                  <div className="subtitle1">Gradient 2</div>
+                                  <div className="subtitle-large">Gradient 2</div>
                                   <div className="small">Note: The "To Color" will be limited to those colors with the same "On Color" or text color to make sure the gradiemt meets WCAG 2.1 AA contrast guidelines.</div>
                                   <div className="form-columns top16">
                                       <ColorGradient className="form-columns top16" value={_colorTheme.gradient2} />
                                   </div>
                               </div>
                               <div className="formRow">
-                                  <div className="subtitle1">Button Color</div>
+                                  <div className="subtitle-large">Button Color</div>
                                   <div className="small">Note: Buttons limited to colors with a contrast against your primary and secondary backgrounds of 3.1: 1 to meet WCAG 2.1 AA Guidelines.</div>
                                   <div className="form-columns top16">
                                       <ColorSelect value={_colorTheme.button} label="Color:"></ColorSelect>
                                   </div>
                               </div>
                               <div className="formRow">
-                                  <div className="subtitle1">Icon Color</div>
+                                  <div className="subtitle-large">Icon Color</div>
                                   <div className="small">Note: Icons limited to colors with a contrast against your primary and secondary backgrounds of 3.1: 1 to meet WCAG 2.1 AA Guidelines.</div>
                                   <div className="form-columns top16">
                                       <ColorSelect value={_colorTheme.icon} label="Color:"></ColorSelect>
@@ -196,14 +196,14 @@ export const CreateColorTheme: React.FC<Props> = ({atom,colorPalette, handleDefa
                                   </div>
                               </div>
                               <div className="formRow">
-                                  <div className="subtitle1">Gradient Header Text</div>
+                                  <div className="subtitle-large">Gradient Header Text</div>
                                   <div className="small">Note: Large text gradient colors are limited to those with a contrast against your background of 3.1: 1 to meet WCAG 2.1 AA Guidelines.</div>
                                   <div className="form-columns top16">
                                   <ColorGradientHeader className="form-columns top16" value={_colorTheme.gradientHeaderText} sampleText="Sample Header" />
                                   </div>
                               </div>
                               <div className="formRow">
-                                  <div className="subtitle1">Accent Color</div>
+                                  <div className="subtitle-large">Accent Color</div>
                                   <div className="small">This color will be used for non-critical or decorative accents and never appears with text or iconongraphy.</div>
                                   <div className="form-columns top16">
                                       <ColorSelect value={_colorTheme.accent} label="Color:"></ColorSelect>

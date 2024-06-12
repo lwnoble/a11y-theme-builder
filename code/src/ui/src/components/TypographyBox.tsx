@@ -51,7 +51,7 @@ export const TextEditBox: React.FC<Props> = ({ cssPrefix, sampleTitle, isBody=fa
                     </div>}
                     {isBody &&
                     <>
-                        <div className="subtitle1">{sampleTitle}</div>
+                        <div className="subtitle-large">{sampleTitle}</div>
                         <div ref={sampleRef} style={sampleStyle}>
                             {sampleBody}
                         </div>

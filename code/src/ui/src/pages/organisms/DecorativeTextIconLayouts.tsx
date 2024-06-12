@@ -33,16 +33,16 @@ export const DecorativeTextIconLayouts: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                  <div className="demo-title subtitle1">Text with Gradient Title, Centered</div>
+                  <div className="demo-title subtitle-large">Text with Gradient Title, Centered</div>
                   <TextIconsGradient className="top40 " />
                   <p></p>
-                  <div className="demo-title subtitle1">Text with Colored Drop Shadow Title, Centered</div>
+                  <div className="demo-title subtitle-large">Text with Colored Drop Shadow Title, Centered</div>
                   <TextIconsDropColor className="top40 " />
                   <p></p>
-                  <div className="demo-title subtitle1">Text with Gradient Title, Centered</div>
+                  <div className="demo-title subtitle-large">Text with Gradient Title, Centered</div>
                   <TextIconsGradientCentered className="top40 " />
                   <p></p>
-                  <div className="demo-title subtitle1">Text with Colored Drop Shadow Title, Centered</div>
+                  <div className="demo-title subtitle-large">Text with Colored Drop Shadow Title, Centered</div>
                   <TextIconsDropColorCentered className="top40 "  />
                   <p></p>
               </div>

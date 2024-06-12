@@ -23,7 +23,7 @@ export const Testimonial: React.FC<Props> = ({className=""}) => {
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
                 </p>
-                <div className="subtitle1">John Doe</div>
+                <div className="subtitle-large">John Doe</div>
                 <div className="body2">Job Title</div>
 
               </div>

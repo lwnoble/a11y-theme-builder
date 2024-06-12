@@ -7,7 +7,7 @@ import { HeadingSection } from '../../content/HeadingSection';
 import TypographyBox from '../../../components/TypographyBox';
 import { ExampleSection } from '../../content/ExampleSection';
 
-const subtitle1CssPrefix = "subtitle1";
+const subtitle1CssPrefix = "subtitle-large";
 const subtitle2CssPrefix = "subtitle2";
 const captionCssPrefix = "caption";
 const captionBoldCssPrefix = "caption-bold";

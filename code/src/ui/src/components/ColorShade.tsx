@@ -52,7 +52,7 @@ export const ColorShade: React.FC<Props> = ({className, shade, label, showId, sh
     return (
         <div className={className ?? ""}>
             {label && <div className="caption text-center">{label}</div>}
-            {showId && <div className="subtitle1 text-center">{_shade.id}</div>}
+            {showId && <div className="subtitle-large text-center">{_shade.id}</div>}
             {/* TODO: we need to determine which foreground color to use for the text */}
             <div className="Hex" style={{ background: _shade.getHexOrRGBA(), color: _shade.getOnShade().getHexOrRGBA() }}>Aa</div>
             {showDetails && <div className="swatch-details active">

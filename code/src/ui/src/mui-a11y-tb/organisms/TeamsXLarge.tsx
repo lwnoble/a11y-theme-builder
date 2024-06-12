@@ -27,42 +27,42 @@ export const TeamsXLarge: React.FC<Props> = ({className=""}) => {
           <Grid justifyContent="center" container spacing={2} columns={12} margin={2}>
             <Grid className="centered" item spacing={2} lg={3} md={4} sm={6}>
               <Avatar className="avatar xl"  />
-              <div className="subtitle1">John Doe</div>
+              <div className="subtitle-large">John Doe</div>
               <div className="body2">Job Title</div>
             </Grid>
             <Grid className="centered" item spacing={2} lg={3} md={4} sm={6}>
               <Avatar className="avatar xl"  />
-              <div className="subtitle1">John Doe</div>
+              <div className="subtitle-large">John Doe</div>
               <div className="body2">Job Title</div>
             </Grid>
             <Grid className="centered" item spacing={2} lg={3} md={4} sm={6}>
               <Avatar className="avatar xl"  />
-              <div className="subtitle1">John Doe</div>
+              <div className="subtitle-large">John Doe</div>
               <div className="body2">Job Title</div>
             </Grid>
             <Grid className="centered" item spacing={2} lg={3} md={4} sm={6}>
               <Avatar className="avatar xl"  />
-              <div className="subtitle1">John Doe</div>
+              <div className="subtitle-large">John Doe</div>
               <div className="body2">Job Title</div>
             </Grid>
             <Grid className="centered"  item spacing={2} lg={3} md={4} sm={6}>
               <Avatar className="avatar xl"  />
-              <div className="subtitle1">John Doe</div>
+              <div className="subtitle-large">John Doe</div>
               <div className="body2">Job Title</div>
             </Grid>
             <Grid className="centered"  item spacing={2} lg={3} md={4} sm={6}>
               <Avatar className="avatar xl"  />
-              <div className="subtitle1">John Doe</div>
+              <div className="subtitle-large">John Doe</div>
               <div className="body2">Job Title</div>
             </Grid>
             <Grid className="centered" item spacing={2} lg={3} md={4} sm={6}>
               <Avatar className="avatar xl"  />
-              <div className="subtitle1">John Doe</div>
+              <div className="subtitle-large">John Doe</div>
               <div className="body2">Job Title</div>
             </Grid>
             <Grid className="centered"  item spacing={2} lg={3} md={4} sm={6}>
               <Avatar className="avatar xl"  />
-              <div className="subtitle1">John Doe</div>
+              <div className="subtitle-large">John Doe</div>
               <div className="body2">Job Title</div>
             </Grid>
           </Grid>

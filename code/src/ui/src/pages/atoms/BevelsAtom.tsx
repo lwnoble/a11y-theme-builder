@@ -18,7 +18,7 @@ const ExampleBevel: React.FC<SampleProps> = ({ className, label }) => {
     return (
         <div className="example">
             <div className="caption">{label}</div>
-            <div className={"card " + className} style={{backgroundColor: "var(--button)"}}></div>
+            <div className={"card " + className} style={{backgroundColor: "var(--background-button)"}}></div>
         </div>
     );
 }
@@ -241,7 +241,7 @@ export const BevelsAtom: React.FC<Props> = ({ bevelSettings }) => {
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="subtitle1">Sample Bevels</div>
+                        <div className="subtitle-large">Sample Bevels</div>
                         <ExampleBevel className="bevel-1" label="Bevel 1"/>
                         <ExampleBevel className="bevel-2" label="Bevel 2"/>
                         <ExampleBevel className="bevel-3" label="Bevel 3"/>
@@ -259,7 +259,7 @@ export const BevelsAtom: React.FC<Props> = ({ bevelSettings }) => {
                     <div className="col-6">
                     </div>
                     <div className="col-6">
-                        <div className="subtitle1">Sample Inverse Bevels</div>
+                        <div className="subtitle-large">Sample Inverse Bevels</div>
                         <ExampleBevel className="bevel-1-inverse" label="Bevel 1"/>
                         <ExampleBevel className="bevel-2-inverse" label="Bevel 2"/>
                         <ExampleBevel className="bevel-3-inverse" label="Bevel 3"/>
@@ -274,7 +274,7 @@ export const BevelsAtom: React.FC<Props> = ({ bevelSettings }) => {
                   <div className="row top40">
                     <div className="col-6"></div>
                     <div className="col-6">
-                        <div className="subtitle1">Sample Grooves</div>
+                        <div className="subtitle-large">Sample Grooves</div>
                         <ExampleBevel className="groove-1" label="Groove 1"/>
                         <ExampleBevel className="groove-2" label="Groove 2"/>
                         <ExampleBevel className="groove-3" label="Groove 3"/>
@@ -289,7 +289,7 @@ export const BevelsAtom: React.FC<Props> = ({ bevelSettings }) => {
                   <div className="row top40">
                     <div className="col-6"></div>
                     <div className="col-6">
-                        <div className="subtitle1">Sample Ridges</div>
+                        <div className="subtitle-large">Sample Ridges</div>
                         <ExampleBevel className="ridge-1" label="Ridge 1"/>
                         <ExampleBevel className="ridge-2" label="Ridge 2"/>
                         <ExampleBevel className="ridge-3" label="Ridge 3"/>
@@ -304,7 +304,7 @@ export const BevelsAtom: React.FC<Props> = ({ bevelSettings }) => {
                 <div className="row top40">
                   <div className="col-6"></div>
                   <div className="col-6">
-                      <div className="subtitle1">Sample Recessed</div>
+                      <div className="subtitle-large">Sample Recessed</div>
                       <ExampleBevel className="recessed-1" label="Recessed 1"/>
                       <ExampleBevel className="recessed-2" label="Recessed 2"/>
                       <ExampleBevel className="recessed-3" label="Recessed 3"/>

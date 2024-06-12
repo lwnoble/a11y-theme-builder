@@ -25,26 +25,26 @@ const ModalInclusive: React.FC<Props> = ({isOpen, onClose}) => {
                     </div>
                     <div className="modal-body">
                         <p>
-                            Creating inclusive experiences is a passion of mine, but creating one experience that 
-                            caters visual, learning and neurological disabilities is hard.  
-                            So we have created themes for each system you create that are designed 
+                            Creating inclusive experiences is a passion of mine, but creating one experience that
+                            caters visual, learning and neurological disabilities is hard.
+                            So we have created themes for each system you create that are designed
                             for color blindness, dislexia and motion sensitivity.
                         </p>
                         <p></p>
-                        <div className="subtitle1">
+                        <div className="subtitle-large">
                             Color Blind Theme
                         </div>
                         <p>
-                            Our color blind palette is designed to create the best possible contrast of 
+                            Our color blind palette is designed to create the best possible contrast of
                             colors for end users with color blindness.
                         </p>
                         <p>
-                            The colors in the leftmost column are the "true" colors; these are displayed in 
-                            the remaining three columns the way that a person with protanopia, deuteranopia, 
+                            The colors in the leftmost column are the "true" colors; these are displayed in
+                            the remaining three columns the way that a person with protanopia, deuteranopia,
                             or tritanopia would see them, respectively.
                         </p>
                         <p>
-                            By default we have randomly created a theme and applied these colors to define 
+                            By default we have randomly created a theme and applied these colors to define
                             infomation, success, warning and danger states.
                         </p>
                         <p>
@@ -60,7 +60,7 @@ const ModalInclusive: React.FC<Props> = ({isOpen, onClose}) => {
                                 https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
                             </a>
                         </div>
-                        <div className="subtitle1 top40">
+                        <div className="subtitle-large top40">
                             Dyslexic Theme
                         </div>
                         <p>
@@ -87,11 +87,11 @@ const ModalInclusive: React.FC<Props> = ({isOpen, onClose}) => {
                                 &nbsp; the OpenDyslexic font to Figma
                             </li>
                         </ul>
-                        <div className="subtitle1 top40">
+                        <div className="subtitle-large top40">
                             Motion Sensitivity
                         </div>
                         <p>
-                            For our motion sensitivity theme we have removed transition 
+                            For our motion sensitivity theme we have removed transition
                             animations which are enabled by default.
                         </p>
                     </div>
@@ -101,7 +101,7 @@ const ModalInclusive: React.FC<Props> = ({isOpen, onClose}) => {
                 </div>
             </div>
         </>
-    ) 
+    )
 }
 
 export default ModalInclusive;

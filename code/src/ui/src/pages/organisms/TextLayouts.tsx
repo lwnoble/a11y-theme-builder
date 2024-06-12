@@ -33,16 +33,16 @@ export const TextLayouts: React.FC<Props> = ({ }) => {
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
                 <div className={colorMode}></div>
-                <div className="demo-title subtitle1">Text with Title, Centered</div>
+                <div className="demo-title subtitle-large">Text with Title, Centered</div>
                 <Text className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Text with Divider, Centered</div>
+                <div className="demo-title subtitle-large">Text with Divider, Centered</div>
                 <TextWithDivider className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Text with Title, Centered</div>
+                <div className="demo-title subtitle-large">Text with Title, Centered</div>
                 <TextCentered className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Text with Divider, Centered</div>
+                <div className="demo-title subtitle-large">Text with Divider, Centered</div>
                 <TextWithDividerCentered className="top40" />
                 <p></p>
               </div>

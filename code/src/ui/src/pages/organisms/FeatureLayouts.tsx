@@ -27,10 +27,10 @@ export const FeatureLayouts: React.FC<Props> = ({ }) => {
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
                 <ExampleSection>
-                  <div className="demo-title subtitle1">Features Highlighted Right</div>
+                  <div className="demo-title subtitle-large">Features Highlighted Right</div>
                   <FeatureHighlightsRight className="top40 " />
                   <p></p>
-                  <div className="demo-title subtitle1">Features Highlighted Left</div>
+                  <div className="demo-title subtitle-large">Features Highlighted Left</div>
                   <FeatureHighlightsLeft className="top40 " />
                   <p></p>
                 </ExampleSection>

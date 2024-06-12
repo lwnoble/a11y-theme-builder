@@ -12,8 +12,8 @@ import { SettingsSection } from '../../content/SettingsSection';
 
 const name = "SmallTextStylesAtom";
 
-const subtitle1CssPrefix = "subtitle1";
-const subtitle2CssPrefix = "subtitle2";
+const subtitle1CssPrefix = "subtitle-large";
+const subtitle2CssPrefix = "subtitle-small";
 const captionCssPrefix = "caption";
 const captionBoldCssPrefix = "caption-bold";
 const overlineCssPrefix = "overline";
@@ -84,8 +84,8 @@ export const SmallTextStylesAtom: React.FC<Props> = ({ designSystem }) => {
             <HeadingSection item={smallTextStylesAtom} title="Typography">
             The Small Text Styles Atom sets Typography settings for the 16 Small Text types:
                 <ul>
-                    <li>Subtitle 1</li>
-                    <li>Subtitle 2</li>
+                    <li>Subtitle Large</li>
+                    <li>Subtitle Small</li>
                     <li>Caption</li>
                     <li>Caption Bold</li>
                     <li>Overline</li>
@@ -114,7 +114,7 @@ export const SmallTextStylesAtom: React.FC<Props> = ({ designSystem }) => {
                 <SettingsSection>
                     <TextEditBox
                         textKey={keySubtitle1}
-                        cssPrefix={subtitle1CssPrefix}
+                        cssPrefix={subtitle2CssPrefix}
                         designSystem={designSystem}
                     />
                     <TextEditBox
@@ -193,7 +193,7 @@ export const SmallTextStylesAtom: React.FC<Props> = ({ designSystem }) => {
                         designSystem={designSystem}
                     />
                 </SettingsSection>
-                <GeneratedCodeSection item={smallTextStylesAtom}/>    
+                <GeneratedCodeSection item={smallTextStylesAtom}/>
             </ExampleSection>
 
         </div>

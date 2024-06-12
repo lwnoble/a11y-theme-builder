@@ -60,7 +60,7 @@ export const ButtonsStandardMolecule: React.FC<Props> = ({ molecule, designSyste
         }
         return (
             <FormControl sx={{m: 2, minWidth: 120}}>
-                <div className='subtitle'>{buttonHeightProperty.name}</div>
+                <div className='subtitle-large'>{buttonHeightProperty.name}</div>
                 <Select sx={{width: "100px"}} label={buttonHeightProperty.name} labelId={`minHeightLabel`} value={buttonHeight} onChange={handleButtonHeightChange}>{r}</Select>
             </FormControl>
         )

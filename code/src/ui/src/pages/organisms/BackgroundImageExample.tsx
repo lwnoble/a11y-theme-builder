@@ -30,22 +30,22 @@ export const BackgroundImageExample: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                  <div className="demo-title subtitle1">Small Image on Right</div>
+                  <div className="demo-title subtitle-large">Small Image on Right</div>
                   <SmBackgroundImageTextRight className="top40 " />
                   <p></p>
-                  <div className="subtitle1">Small Image on Left</div>
+                  <div className="subtitle-large">Small Image on Left</div>
                   <SmBackgroundImageTextLeft className="top40 " />
                   <p></p>
-                  <div className="subtitle1">Medium Image on Right</div>
+                  <div className="subtitle-large">Medium Image on Right</div>
                   <MdBackgroundImageTextRight className="top40 "  />
                   <p></p>
-                  <div className="subtitle1">Medium Image on Left</div>
+                  <div className="subtitle-large">Medium Image on Left</div>
                   <MdBackgroundImageTextLeft className="top40 " />
                   <p></p>
-                  <div className="subtitle1">Large Image on Right</div>
+                  <div className="subtitle-large">Large Image on Right</div>
                   <LgBackgroundImageTextRight className="top40 " />
                   <p></p>
-                  <div className="subtitle1">Large Image on Left</div>
+                  <div className="subtitle-large">Large Image on Left</div>
                   <LgBackgroundImageTextLeft className="top40 " />
               </div>
           </div>

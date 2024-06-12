@@ -38,13 +38,13 @@ export const DisplayColorPalette: React.FC<Props> = ({ colorPalette, colors, lig
                     {colorPalette.getColors().map((color, i) => {
                         return (
                             <div key={color.name}>
-                                <div className="subtitle1">{color.name}</div>
+                                <div className="subtitle-large">{color.name}</div>
                                 <div className="colorRow">
                                     {color.light.shades.map((shade, i) => {
                                          if(shade.hex.toLowerCase()==color.hex.getValue()){
                                             console.log("found base color",color.name);
                                             return(
-                                                <ColorShadeCss className="color-block" key={"ColorShade" + i} name={color.name} id={shade.id} lm={true} showDetails={_showDetails} showId isBaseColor={true}/> 
+                                                <ColorShadeCss className="color-block" key={"ColorShade" + i} name={color.name} id={shade.id} lm={true} showDetails={_showDetails} showId isBaseColor={true}/>
                                             )
                                         }
                                         return (
@@ -61,13 +61,13 @@ export const DisplayColorPalette: React.FC<Props> = ({ colorPalette, colors, lig
                         //console.log("comment=",comment)
                         return (
                             <div key={color.name}>
-                                <div className="subtitle1">{color.name}</div>
+                                <div className="subtitle-large">{color.name}</div>
                                 <div className="colorRow">
                                     {color.dark.shades.map((shade, i) => {
                                         if(shade.hex.toLowerCase()==color.hex.getValue()){
                                             console.log("found base color");
                                             return(
-                                                <ColorShadeCss className="color-block" key={"ColorShade" + i} name={color.name} id={shade.id} lm={true} showDetails={_showDetails} showId isBaseColor={true}/> 
+                                                <ColorShadeCss className="color-block" key={"ColorShade" + i} name={color.name} id={shade.id} lm={true} showDetails={_showDetails} showId isBaseColor={true}/>
                                             )}
                                         return (
                                             <ColorShadeCss className="color-block" key={"ColorShade" + i} name={color.name} id={shade.id} lm={false} showDetails={_showDetails} showId/>

@@ -29,7 +29,7 @@ export const ListComponent: React.FC<Props> = ({ type, title, overline, body, is
     const listTitle = <>
         {!(type === 2) || <div className="overline">{overline}</div> }
         {isStyle2 || <div className="body2">{title}</div>}
-        {!isStyle2 || <div className="subtitle1">{title}</div>}
+        {!isStyle2 || <div className="subtitle-large">{title}</div>}
         {!(type === 3) || <div className="body2">{body}</div> }
     </>
 

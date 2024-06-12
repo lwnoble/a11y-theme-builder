@@ -30,22 +30,22 @@ export const TemplateExample: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                <div className="demo-title subtitle1">Small Image on Right</div>
+                <div className="demo-title subtitle-large">Small Image on Right</div>
                 <ImageTextRight className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Small Image on Left</div>
+                <div className="demo-title subtitle-large">Small Image on Left</div>
                 <ImageTextLeft className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Medium Image on Right</div>
+                <div className="demo-title subtitle-large">Medium Image on Right</div>
                 <MediumImageRight  className="top40"  />
                 <p></p>
-                <div className="demo-title subtitle1">Medium Image on Left</div>
+                <div className="demo-title subtitle-large">Medium Image on Left</div>
                 <MediumImageLeft className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">Large Image on Right</div>
+                <div className="demo-title subtitle-large">Large Image on Right</div>
                 <LargeImageRight  className="top40"  />
                 <p></p>
-                <div className="demo-title subtitle1">Large Image on Left</div>
+                <div className="demo-title subtitle-large">Large Image on Left</div>
                 <LargeImageLeft className="top40" />
               </div>
           </div>

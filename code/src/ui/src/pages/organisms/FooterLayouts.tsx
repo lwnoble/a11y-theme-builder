@@ -28,13 +28,13 @@ export const FooterLayouts: React.FC<Props> = ({ }) => {
               <FooterColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </FooterColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                <div className="demo-title subtitle1">Brand Section and 5 Colums</div>
+                <div className="demo-title subtitle-large">Brand Section and 5 Colums</div>
                 <Footer5Columns />
 
-                <div className="demo-title subtitle1">Brand Section and 4 Colums</div>
+                <div className="demo-title subtitle-large">Brand Section and 4 Colums</div>
                 <Footer4Columns />
 
-                <div className="demo-title subtitle1">Brand Section and 3 Colums</div>
+                <div className="demo-title subtitle-large">Brand Section and 3 Colums</div>
                 <Footer3Columns />
               </div>
           </div>

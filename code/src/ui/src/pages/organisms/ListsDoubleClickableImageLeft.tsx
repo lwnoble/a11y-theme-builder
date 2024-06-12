@@ -30,22 +30,22 @@ export const ListsDoubleClickableImageLeft: React.FC<Props> = ({ }) => {
               <SectionColorModeSelector colorMode={colorMode} setColorMode={setColorMode}>
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
-                <div className="demo-title subtitle1">List, Standard</div>
+                <div className="demo-title subtitle-large">List, Standard</div>
                 <ListDoubleClickableImageLeft className="top40"  />
                 <p></p>
-                <div className="demo-title subtitle1">List, with avatars</div>
+                <div className="demo-title subtitle-large">List, with avatars</div>
                 <ListDoubleAvatarClickableImageLeft className="top40"  />
                 <p></p>
-                <div className="demo-title subtitle1">List, with images</div>
+                <div className="demo-title subtitle-large">List, with images</div>
                 <ListDoubleImageClickableImageLeft className="top40" />
                 <p></p>
-                <div className="demo-title subtitle1">List, with wide images</div>
+                <div className="demo-title subtitle-large">List, with wide images</div>
                 <ListDoubleImageWideClickableImageLeft className="top40"  />
                 <p></p>
-                <div className="demo-title subtitle1">List, with icons</div>
+                <div className="demo-title subtitle-large">List, with icons</div>
                 <ListDoubleIconSmallClickableImageLeft className="top40"  />
                 <p></p>
-                <div className="demo-title subtitle1">List, with wide icons</div>
+                <div className="demo-title subtitle-large">List, with wide icons</div>
                 <ListDoubleIconLargeClickableImageLeft className="top40"   />
                 <p></p>
               </div>

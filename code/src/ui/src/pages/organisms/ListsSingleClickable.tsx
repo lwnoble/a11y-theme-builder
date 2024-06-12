@@ -31,22 +31,22 @@ export const ListsSingleClickable: React.FC<Props> = ({ }) => {
               </SectionColorModeSelector>
               <div className="section-demos" data-background={colorMode}>
 
-                  <div className="demo-title subtitle1">List, Standard</div>
+                  <div className="demo-title subtitle-large">List, Standard</div>
                   <ListSingleClickable className="top40" />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with avatars</div>
+                  <div className="demo-title subtitle-large">List, with avatars</div>
                   <ListSingleAvatarClickable className="top40" />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with images</div>
+                  <div className="demo-title subtitle-large">List, with images</div>
                   <ListSingleImageClickable className="top40" />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with wide images</div>
+                  <div className="demo-title subtitle-large">List, with wide images</div>
                   <ListSingleImageWideClickable className="top40" />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with icons</div>
+                  <div className="demo-title subtitle-large">List, with icons</div>
                   <ListSingleIconSmallClickable className="top40" />
                   <p></p>
-                  <div className="demo-title subtitle1">List, with large icons</div>
+                  <div className="demo-title subtitle-large">List, with large icons</div>
                   <ListSingleIconLargeClickable className="top40" />
                   <p></p>
                 </div>

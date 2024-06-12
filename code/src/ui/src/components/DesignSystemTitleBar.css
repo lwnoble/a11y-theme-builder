@@ -3,8 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--background);
-    color: var(--on-background);
+    background: var(--background-color);
+    color: var(--background-on-color);
 }
 
 .titleBarDiv .MuiSelect-select {
@@ -14,7 +14,7 @@
 }
 
 .MuiSelect-select span {
-  padding-right: var(--min-target)
+  padding-right: var(--sizing-min-target)
 }
 
 .titleBarDiv .left-titlebar {
@@ -51,9 +51,9 @@
 
 .titleBarDiv .label {
     padding-right: 30px;
-    font-size: var(--label-smallFontSize);
-    font-family: var(--label-smallFontFamily);
-    font-weight: var(--label-smallFontWeight);
-    line-height: var(--label-smallLineHeight);
-    letter-spacing: var(--label-smallCharcterSpacing);
+    font-size: var(--label-small-font-size);
+    font-family: var(--label-small-font-family);
+    font-weight: var(--label-small-font-weight);
+    line-height: var(--label-small-line-height);
+    letter-spacing: var(--label-small-charcter-spacing);
 }

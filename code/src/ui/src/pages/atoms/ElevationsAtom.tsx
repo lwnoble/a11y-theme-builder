@@ -127,7 +127,7 @@ export const ElevationsAtom: React.FC<Props> = ({ elevationSettings }) => {
                   <div className="container">
                       <div className="row">
                           <div className="col-6">
-                              <div className="subtitle1">Based Shadow Settings</div>
+                              <div className="subtitle-large">Based Shadow Settings</div>
                               <div className="form-row">
                                   <label className="label-1">
                                       Base Blur Radius
@@ -171,7 +171,7 @@ export const ElevationsAtom: React.FC<Props> = ({ elevationSettings }) => {
                                   />
                               </div>
 
-                              <div className="subtitle1 top16">Angled Elevation Settings</div>
+                              <div className="subtitle-large top16">Angled Elevation Settings</div>
                               <div className="form-row">
                                   <label className="label-1">
                                       Horizontal Shadow Length
@@ -242,7 +242,7 @@ export const ElevationsAtom: React.FC<Props> = ({ elevationSettings }) => {
                                       max={colorOpacityProperty.max}
                                   />
                               </div>
-                              <div className="subtitle1 top16">Percent change between elevations</div>
+                              <div className="subtitle-large top16">Percent change between elevations</div>
                               <div className="form-row">
                                   <label className="label-1">
                                       Percent change
@@ -263,7 +263,7 @@ export const ElevationsAtom: React.FC<Props> = ({ elevationSettings }) => {
                                   <div style={{flex:"1 1 0", width:"0"}}>
                                       <LightModeSection>
                                           Light mode elvations are created by layering an angled shadow over a base shadow that becomes increasingly heavy as the elevation rises.
-                                          <div className="subtitle1 top24">Sample Elevations</div>
+                                          <div className="subtitle-large top24">Sample Elevations</div>
                                           <div className="top24"/>
                                           <ExampleElevation data-mode="light" className="elevation-0" label="Elevation 0" />
                                           <ExampleElevation data-mode="light"  className="elevation-1" label="Elevation 1" />
@@ -280,7 +280,7 @@ export const ElevationsAtom: React.FC<Props> = ({ elevationSettings }) => {
                                   <div data-mode="dark" style={{flex:"1 1 0", width:"0"}}>
                                       <DarkModeSection>
                                           In darkmode elevations are represented by a backgrounds with increasingly brightness. Drop shadows are hard to see in darkmode.  All shadows in darkmode are converted to black.
-                                          <div className="subtitle1 top24">Sample Elevations</div>
+                                          <div className="subtitle-large top24">Sample Elevations</div>
                                           <div className="top24"/>
                                           <ExampleElevation data-mode="dark" className="elevation-0" label="Elevation 0" />
                                           <ExampleElevation data-mode="dark" className="elevation-1" label="Elevation 1" />
