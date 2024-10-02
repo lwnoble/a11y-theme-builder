@@ -1,0 +1,36 @@
+:root {
+  [data-theme="default"] {
+--elements-on-light-shades-brand-icon: var(--all-colors-orange-color-400);
+--elements-on-light-shades-brand-on-icon: var(--all-colors-yellow-color-200);
+--elements-on-light-shades-primary-text: var(--all-colors-neutral-color-800);
+--elements-on-light-shades-primary-icon: var(--all-colors-neutral-color-800);
+--elements-on-light-shades-secondary-text: var(--secondary-color-600);
+--elements-on-light-shades-secondary-icon: var(--secondary-color-500);
+--elements-on-light-shades-tertiary-text:  var(--tertiary-color-600);
+--elements-on-light-shades-tertiary-icon:  var(--tertiary-color-500);
+--elements-on-dark-shades-brand-icon: var(--all-colors-yellow-color-200);
+--elements-on-dark-shades-brand-on-icon: var(--all-colors-orange-color-400);
+--elements-on-dark-shades-primary-text: var(--all-colors-neutral-color-050);
+--elements-on-dark-shades-primary-icon: var(--all-colors-neutral-color-050);
+--elements-on-dark-shades-secondary-text: var(--secondary-color-300);
+--elements-on-dark-shades-secondary-icon: var(--secondary-color-300);
+--elements-on-dark-shades-tertiary-text: var(--tertiary-color-300);
+--elements-on-dark-shades-tertiary-icon: var(--tertiary-color-300);
+--elements-on-default-shades-brand-icon: var(--all-colors-yellow-color-200);
+--elements-on-default-shades-brand-on-icon: var(--all-colors-orange-color-400);
+--elements-on-default-shades-primary-text: var(--all-colors-neutral-color-050);
+--elements-on-default-shades-primary-icon: var(--all-colors-neutral-color-050);
+--elements-on-default-shades-secondary-text: var(--secondary-color-300);
+--elements-on-default-shades-secondary-icon: var(--secondary-color-300);
+--elements-on-default-shades-tertiary-text: var(--tertiary-color-300);
+--elements-on-default-shades-tertiary-icon: var(--tertiary-color-300);
+--elements-on-surface-shades-brand-icon: var(--all-colors-yellow-color-200);
+--elements-on-surface-shades-brand-on-icon: var(--all-colors-orange-color-400);
+--elements-on-surface-shades-primary-text: var(--all-colors-neutral-color-050);
+--elements-on-surface-shades-primary-icon: var(--all-colors-neutral-color-050);
+--elements-on-surface-shades-secondary-text: var(--secondary-color-300);
+--elements-on-surface-shades-secondary-icon: var(--secondary-color-300);
+--elements-on-surface-shades-tertiary-text: var(--tertiary-color-300);
+--elements-on-surface-shades-tertiary-icon: var(--tertiary-color-300);
+}
+}

@@ -1,22 +1,24 @@
 /* container */
-@import url(aa.css);
-@import url(mode.css);
-@import url(backgrounds.css);
-@import url(cognative.css);
-@import url(colorblind.css);
 @import url(core.css);
-@import url(devices.css);
-@import url(elevations.css);
+@import url(theme.css);
+@import url(mode.css);
+@import url(theme-elements.css);
+@import url(bgs.css);
 @import url(gradients.css);
-@import url(platforms.css);
-@import url(spacing.css);
-@import url(themes.css);
+@import url(elevation.css);
+@import url(platform.css);
+@import url(cognative.css);
+@import url(color-blind.css);
+@import url(shadows.css);
+@import url(topography.css);
+@import url(zoom.css);
+
 body {
-  background: var(--body-bg);
+  background: var(--system-background);
 }
 .App {
-  background: var(--background-color);
-  color: var(--background-on-color);
+  background: var(--system-background);
+  color: var(--system-on-color);
 }
 .MuiGrid-container {
   width: calc(100% - var(--spacing-4)) !important;
@@ -445,8 +447,8 @@ section {
   padding-top: calc(calc(var(--section-padding) - 2) * var(--spacing-1)) !important;
   padding-bottom: calc(var(--section-padding) * var(--spacing-1)) !important;
   margin: 0 !important;
-  background-color: var(--background-color);
-  background: var(--background-color);
+  background-color: var(--system-background);
+  background: var(--system-background);
   color: var(--background-on-color)
 }
 section:has( .backgroundImage) {
@@ -519,7 +521,7 @@ section:has( .quote) {
   color: var(--on-tertiary) !important;
 }
 .background {
-  background: var(--background-color) !important;
+  background: var(--system-background) !important;
   color: var(--background-on-color) !important;
 }
 .button {
@@ -941,7 +943,7 @@ button:not(.MuiTab-root):focus::after {
   min-height: calc(var(--button-height) * var(--spacing-1) + 1 * var(--border-width-button) * 2px + 4px);
 }
 button.dropdown-toggle {
-  background: var(--background-color) !important;
+  background: var(--system-background) !important;
   color: var(--background-on-color) !important;
   border: 1 solid var(--background-border);
   border-radius: var(--radius-1);
@@ -1270,7 +1272,7 @@ button.MuiPaginationItem-root:hover {
   min-height: var(--sizing-min-target);
   border: var(--background-border);
   box-shadow: var(--toast-shadow);
-  background: var(--background-color);
+  background: var(--system-background);
 }
 .MuiAlert-standardWarning::before {
   position: absolute;
@@ -1521,12 +1523,12 @@ button.MuiPaginationItem-root:hover {
 }
 /* app bar */
 .MuiAppBar {
-  background: var(--background-color) !important;
+  background: var(--system-background) !important;
   color: var(--on-color) !important;
 }
 /* tabs */
 .MuiTabs-root {
-  background: var(--background-color) !important;;
+  background: var(--system-background) !important;;
   color: var(--background-on-color) !important;;
 }
 .MuiAppBar-root .MuiTabs-root, .MuiAppBar-root .MuiTab-root {
@@ -1567,7 +1569,7 @@ button.MuiPaginationItem-root:hover {
 /* accordion */
 .MuiAccordion-root {
   margin-bottom: var(--spacing-2);
-  background: var(--background-color);
+  background: var(--system-background);
   color: var(--background-on-color)
 }
 .MuiAccordion-root::after {
@@ -1730,7 +1732,7 @@ button.MuiPaginationItem-root:hover {
 }
 .MuiPaper-root.MuiPopover-paper {
   transform: translate(0px, 0px) !important;
-  background: var(--background-color);
+  background: var(--system-background);
   color: var(--background-on-color));
   border: 1px solid var(--background-border);
 }
@@ -1782,7 +1784,7 @@ button.MuiPaginationItem-root:hover {
   right: 0;
 }
 .MuiSwitch-root .MuiSwitch-switchBase .MuiSwitch-thumb {
-  background: var(--background-color);
+  background: var(--system-background);
   padding: 0;
   left: 0;
   width: var(--spacing-3);
@@ -1911,7 +1913,7 @@ button.MuiPaginationItem-root:hover {
 /* popovers */
 .MuiPopover-paper {
    border-radius: calc(var(--popoverRadius) * var(--radius-1)) !important;
-   background: var(--background-color);
+   background: var(--system-background);
    z-index: 1;
    transform: translate(calc(0px - var(--spacing-half)), calc(0px - var(--spacing-half))) !important;
    box-shadow: var(--popover-shadow);
@@ -1944,7 +1946,7 @@ button.MuiPaginationItem-root:hover {
 
 
 .MuiTooltip-tooltip {
-  background: var(--background-color);
+  background: var(--system-background);
   color: var(--background-on-color);
 }
 /* radio buttons */
@@ -2813,7 +2815,7 @@ button.MuiPaginationItem-root:hover {
   box-shadow: var(--modal-shadow);
   border-radius: calc(var(--modal-radius) * var(--radius-1)) !important;
   padding: inherit;
-  background: var(--background-color);
+  background: var(--system-background);
   max-height: calc(100vh - var(--spacing-10));
   border: 1px solid var(--background-border);
   color: var(--background-on-color);
@@ -2835,7 +2837,7 @@ button.MuiPaginationItem-root:hover {
 /* elevations */
 .elevation-0 {
   border: 1px solid var(--background-border);
-  background: var(--background-color);
+  background: var(--system-background);
 }
 .elevation-1 {
   background: var(--elevations-bg-1);
@@ -3102,7 +3104,7 @@ video {
 }
 footer {
   padding-top: var(--spacing-6);
-  background: var(--background-color);
+  background: var(--system-background);
   color: var(--background-on-color);
 }
 footer .MuiGrid-container {
@@ -3202,8 +3204,8 @@ footer .MuiGrid-container {
     padding-bottom: calc(var(--spacing-1) * var(--hero-padding));
     position: relative;
     z-index: 4;
-    background-color: var(--background-color);
-    background: var(--background-color);
+    background-color: var(--system-background);
+    background: var(--system-background);
     position: relative;
 }
 .hero.backgroundImage {
@@ -3219,7 +3221,7 @@ footer .MuiGrid-container {
   right: 0;
   left: 0;
   z-index: 1;
-  background: var(--background-color);
+  background: var(--system-background);
 }
 
 .hero.backgroundImage .MuiGrid-container, .hero.backgroundVideo .MuiGrid-container {

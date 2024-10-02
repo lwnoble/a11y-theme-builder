@@ -1,0 +1,421 @@
+h1 {
+  font-family: var(--headers-h1-font-family);
+  font-weight: var(--headers-h1-font-weight);
+  line-height: var(--headers-h1-line-height);
+  font-size: var(--headers-h1-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--headers-h1-font-size)), var(--headers-h1-letter-spacing));
+  text-transform:  var(--headers-h1-text-transform);
+  text-decoration:  var(--headers-h1-text-decoration);
+}
+h2 {
+  font-family: var(--headers-h2-font-family);
+  font-weight: var(--headers-h2-font-weight);
+  line-height: var(--headers-h2-line-height);
+  font-size: var(--headers-h2-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--headers-h2-font-size)), var(--headers-h2-letter-spacing));
+  text-transform:  var(--headers-h2-text-transform);
+  text-decoration:  var(--headers-h2-text-decoration);
+}
+h3 {
+  font-family: var(--headers-h3-font-family);
+  font-weight: var(--headers-h3-font-weight);
+  line-height: var(--headers-h3-line-height);
+  font-size: var(--headers-h3-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--headers-h3-font-size)), var(--headers-h3-letter-spacing));
+  text-transform:  var(--headers-h3-text-transform);
+  text-decoration:  var(--headers-h3-text-decoration);
+}
+h4 {
+  font-family: var(--headers-h4-font-family);
+  font-weight: var(--headers-h4-font-weight);
+  line-height: var(--headers-h4-line-height);
+  font-size: var(--headers-h4-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--headers-h4-font-size)), var(--headers-h4-letter-spacing));
+  text-transform:  var(--headers-h4-text-transform);
+  text-decoration:  var(--headers-h4-text-decoration);
+}
+h5 {
+  font-family: var(--headers-h5-font-family);
+  font-weight: var(--headers-h5-font-weight);
+  line-height: var(--headers-h5-line-height);
+  font-size: var(--headers-h5-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--headers-h5-font-size)), var(--headers-h5-letter-spacing));
+  text-transform:  var(--headers-h5-text-transform);
+  text-decoration:  var(--headers-h5-text-decoration);
+}
+h6 {
+  font-family: var(--headers-h6-font-family);
+  font-weight: var(--headers-h6-font-weight);
+  line-height: var(--headers-h6-line-height);
+  font-size: var(--headers-h6-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--headers-h6-font-size)), var(--headers-h6-letter-spacing));
+  text-transform:  var(--headers-h6-text-transform);
+  text-decoration:  var(--headers-h6-text-decoration);
+}
+.number-large {
+  font-family: var(--number-large-font-family);
+  font-weight: var(--number-large-font-weight);
+  line-height: var(--number-large-line-height);
+  font-size: var(--number-large-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--number-large-font-size)), var(--number-large-letter-spacing));
+  text-transform:  var(--number-large-text-transform);
+  text-decoration:  var(--number-large-text-decoration);
+}
+.number-medium {
+  font-family: var(--number-medium-font-family);
+  font-weight: var(--number-medium-font-weight);
+  line-height: var(--number-medium-line-height);
+  font-size: var(--number-medium-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--number-medium-font-size)), var(--number-medium-letter-spacing));
+  text-transform:  var(--number-medium-text-transform);
+  text-decoration:  var(--number-medium-text-decoration);
+}
+.subtitle-large {
+  font-family: var(--small-text-subtitle-large-font-family);
+  font-weight: var(--small-text-subtitle-large-font-weight);
+  line-height: var(--small-text-subtitle-large-line-height);
+  font-size: var(--small-text-subtitle-large-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-subtitle-large-font-size)), var(--small-text-subtitle-large-letter-spacing));
+  text-transform:  var(--small-text-subtitle-large-text-transform);
+  text-decoration:  var(--small-text-subtitle-large-text-decoration);
+}
+.subtitle-small {
+    font-family: var(--small-text-subtitle-small-font-family);
+    font-weight: var(--small-text-subtitle-small-font-weight);
+    line-height: var(--small-text-subtitle-small-line-height);
+    font-size: min(var(--min-letter-spacing), var(--small-text-subtitle-small-font-size));
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-subtitle-small-font-size)), var(--small-text-subtitle-small-letter-spacing));
+    text-transform:  var(--small-text-subtitle-small-text-transform);
+    text-decoration:  var(--small-text-subtitle-small-text-decoration);
+}
+.CTA {
+    font-family: var(--small-text-CTA-font-family);
+    font-weight: var(--small-text-CTA-font-weight);
+    line-height: var(--small-text-CTA-line-height);
+    font-size: var(--small-text-CTA-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-CTA-font-size)), var(--small-text-CTA-letter-spacing));
+    text-transform:  var(--small-text-CTA-text-transform);
+    text-decoration:  var(--small-text-CTA-text-decoration);
+}
+  .CTA-small {
+    font-family: var(--small-text-CTA-small-font-family);
+    font-weight: var(--small-text-CTA-small-font-weights);
+    line-height: var(--small-text-CTA-small-line-height);
+    font-size: var(--small-text-CTA-small-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-CTA-small-font-size)), var(--small-text-CTA-small-letter-spacing));
+    text-transform:  var(--small-text-CTA-small-text-transform);
+    text-decoration:  var(--small-text-CTA-small-text-decoration);
+}
+.caption   {
+    font-family: var(--small-text-caption-font-family);
+    font-weight: var(--small-text-caption-font-weight);
+    line-height: var(--small-text-caption-line-height);
+    font-size: var(--small-text-caption-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-caption-font-size)), var(--small-text-caption-letter-spacing));
+    text-transform:  var(--small-text-caption-text-transform);
+    text-decoration:  var(--small-text-caption-text-decoration);
+}
+p.caption-bold, .caption-bold p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--caption-font-size)), calc(var(--caption-font-size) * var(--paragraph-spacing-auto)));
+}
+p.caption-bold.small, .caption-bold.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--caption-font-size)), calc(var(--caption-font-size) * var(--paragraph-spacing-auto)));
+}
+.caption-bold {
+      font-family: var(--small-text-caption-bold-font-family);
+      font-weight: var(--small-text-caption-bold-font-weight);
+      line-height: var(--small-text-caption-bold-line-height);
+      font-size: var(--small-text-caption-bold-font-size);
+      letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-caption-bold-font-size)), var(--small-text-caption-bold-letter-spacing));
+      text-transform:  var(--small-text-caption-bold-text-transform);
+      text-decoration:  var(--small-text-caption-bold-text-decoration);
+}
+p.caption-bold, .caption-bold p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--caption-bold-font-size)), calc(var(--caption-bold-font-size) * var(--paragraph-spacing-auto)));
+}
+p.caption-bold.small, .caption-bold.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--caption-bold-font-size)), calc(var(--caption-bold-font-size) * var(--paragraph-spacing-auto)));
+}
+.overline {
+    font-family: var(--small-text-overline-font-family);
+    font-weight: var(--small-text-overline-font-weight);
+    line-height: var(--small-text-overline-line-height);
+    font-size: var(--small-text-overline-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-overline-font-size)), var(--small-text-overline-letter-spacing));
+    text-transform:  var(--small-text-overline-text-transform);
+    text-decoration:  var(--small-text-overline-text-decoration);
+}
+.overline-large {
+  font-family: var(--small-text-overline-large-font-family);
+  font-weight: var(--small-text-overline-large-font-weight);
+  line-height: var(--small-text-overline-large-line-height);
+  font-size: var(--small-text-overline-large-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-overline-large-font-size)), var(--small-text-overline-large-letter-spacing));
+  text-transform:  var(--small-text-overline-large-text-transform);
+  text-decoration:  var(--small-text-overline-large-text-decoration);
+}
+.overline-extra-large {
+    font-family: var(--small-text-overline-extra-large-font-family);
+    font-weight: var(--small-text-overline-extra-large-font-weight);
+    line-height: var(--small-text-overline-extra-large-line-height);
+    font-size: var(--small-text-overline-extra-large-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-overline-extra-large-font-size)), var(--small-text-overline-extra-large-letter-spacing));
+    text-transform:  var(--small-text-overline-extra-large-text-transform);
+    text-decoration:  var(--small-text-overline-extra-large-text-decoration);
+}
+.legal, .helper-text {
+    font-family: var(--small-text-legal-font-family);
+    font-weight: var(--small-text-legal-font-weight);
+    line-height: var(--small-text-legal-line-height);
+    font-size: var(--small-text-legal-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-legal-font-size)), var(--small-text-legal-letter-spacing));
+    text-transform:  var(--small-text-legal-text-transform);
+    text-decoration:  var(--small-text-legal-text-decoration);
+}
+p.legal, .legal p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--small-text-legal-font-size)), calc(var(--small-text-legal-font-size) * var(--paragraph-spacing-auto)));
+}
+p.legal.small, .legal.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--small-text-legal-font-size)), calc(var(--small-text-legal-font-size) * var(--paragraph-spacing-auto)));
+}
+.legal-semibold {
+    font-family: var(--small-text-legal-semibold-font-family);
+    font-weight: var(--small-text-legal-semibold-font-weight);
+    line-height: var(--small-text-legal-semibold-line-height);
+    font-size: var(--small-text-legal-semibold-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-legal-semibold-font-size)), var(--small-text-legal-semibold-letter-spacing));
+    text-transform:  var(--small-text-legal-semibold-text-transform);
+    text-decoration:  var(--small-text-legal-semibold-text-decoration);
+}
+p.legal-semibold, .legal-semibold p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--legal-semibold-font-size)), calc(var(--legal-semibold-font-size) * var(--paragraph-spacing-auto)));
+}
+p.legal-semibold.small, .legal-semibold.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--legal-semibold-font-size)), calc(var(--legal-semibold-font-size) * var(--paragraph-spacing-auto)));
+}
+.label-large {
+  font-family: var(--small-text-label-large-font-family);
+  font-weight: var(--small-text-label-large-font-weight);
+  line-height: var(--small-text-label-large-line-height);
+  font-size: var(--small-text-label-large-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-label-large-font-size)), var(--small-text-label-large-letter-spacing));
+  text-transform:  var(--small-text-label-large-text-transform);
+  text-decoration:  var(--small-text-label-large-text-decoration);
+}
+.label-large-all-caps {
+  font-family: var(--small-text-label-large-all-caps-font-family);
+  font-weight: var(--small-text-label-large-all-caps-font-weight);
+  line-height: var(--small-text-label-large-all-caps-line-height);
+  font-size: var(--small-text-label-large-all-caps-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-label-large-all-caps-font-size)), var(--small-text-label-large-all-caps-letter-spacing));
+  text-transform:  var(--small-text-label-large-all-caps-text-transform);
+  text-decoration:  var(--small-text-label-large-all-caps-text-decoration);
+}
+.label-medium {
+    font-family: var(--small-text-label-medium-font-family);
+    font-weight: var(--small-text-label-medium-font-weight);
+    line-height: var(--small-text-label-medium-line-height);
+    font-size: var(--small-text-label-medium-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-label-medium-font-size)), var(--small-text-label-medium-letter-spacing));
+    text-transform:  var(--small-text-label-medium-text-transform);
+    text-decoration:  var(--small-text-label-medium-text-decoration);
+}
+.label-medium-all-caps {
+    font-family: var(--small-text-label-medium-all-caps-font-family);
+    font-weight: var(--small-text-label-medium-all-caps-font-weight);
+    line-height: var(--small-text-label-medium-all-caps-line-height);
+    font-size: var(--small-text-label-medium-all-caps-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-label-medium-all-caps-font-size)), var(--small-text-label-medium-all-caps-letter-spacing));
+    text-transform:  var(--small-text-label-medium-all-caps-text-transform);
+    text-decoration:  var(--small-text-label-medium-all-caps-text-decoration);
+}
+.label-small {
+    font-family: var(--small-text-label-small-font-family);
+    font-weight: var(--small-text-label-small-font-weight);
+    line-height: var(--small-text-label-small-line-height);
+    font-size: var(--small-text-label-small-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-label-small-font-size)), var(--small-text-label-small-letter-spacing));
+    text-transform:  var(--small-text-label-small-text-transform);
+    text-decoration:  var(--small-text-label-small-text-decoration);
+}
+.label-extra-small {
+    font-family: var(--small-text-label-extra-small-font-family);
+    font-weight: var(--small-text-label-extra-small-font-weight);
+    line-height: var(--small-text-label-extra-small-line-height);
+    font-size: var(--small-text-label-extra-small-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--small-text-label-extra-small-font-size)), var(--small-text-label-extra-small-letter-spacing));
+    text-transform:  var(--small-text-label-extra-small-text-transform);
+    text-decoration:  var(--small-text-label-extra-small-text-decoration);
+}
+.breadcrumbs .historic {
+  font-family: var(--breadcrumbs-historic-font-family);
+  font-weight: var(--breadcrumbs-historic-font-weight);
+  line-height: var(--breadcrumbs-historic-line-height);
+  font-size: var(--breadcrumbs-historic-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--breadcrumbs-historic-font-size)), var(--breadcrumbs-historic-letter-spacing));
+  text-transform:  var(--breadcrumbs-historic-text-transform);
+  text-decoration:  var(--breadcrumbs-historic-text-decoration);
+}
+.breadcrumbs .current {
+  font-family: var(--breadcrumbs-current-font-family);
+  font-weight: var(--breadcrumbs-current-font-weight);
+  line-height: var(--breadcrumbs-current-line-height);
+  font-size: var(--breadcrumbs-current-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--breadcrumbs-current-font-size)), var(--breadcrumbs-current-letter-spacing));
+  text-transform:  var(--breadcrumbs-current-text-transform);
+  text-decoration:  var(--breadcrumbs-current-text-decoration);
+}
+.display-large {
+  font-family: var(--display-large-font-family);
+  font-weight: var(--display-large-font-weight);
+  line-height: var(--display-large-line-height)px;
+  font-size: var(--display-large-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--display-large-font-size)), var(--display-large-letter-spacing));
+  text-transform:  var(--display-large-text-transform);
+  text-decoration:  var(--display-large-text-decoration);
+}
+.display-small {
+  font-family: var(--display-small-font-family);
+  font-weight: var(--display-small-font-weight);
+  line-height: var(--display-small-line-height);
+  font-size: var(--display-small-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--display-small-font-size)), var(--displacy-small-letter-spacing));
+  text-transform:  var(--display-small-text-transform);
+  text-decoration:  var(--display-small-text-decoration);
+}
+.body-small {
+  font-family: var(--body-small-font-family);
+  font-weight: var(--body-small-font-weight);
+  line-height: var(--body-small-line-height);
+  font-size: var(--body-small-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-small-font-size)), var(--body-small-letter-spacing));
+  text-transform:  var(--body-small-text-transform);
+  text-decoration:  var(--body-small-text-decoration);
+}
+p.body-small, .body-small p, .card p.body, .card .body p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-small-font-size)), calc(var(--body-small-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-small.small, .body-small.small p,  .card p.small.body, .card .body p.small {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-small-font-size)), calc(var(--body-small-font-size) * var(--paragraph-spacing-auto)));
+}
+.body-medium {
+  font-family: var(--body-medium-font-family);
+  font-weight: var(--body-medium-font-weight);
+  line-height: var(--body-medium-line-height);
+  font-size: var(--body-medium-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-medium-font-size)), var(--body-medium-letter-spacing));
+  text-transform:  var(--body-medium-text-transform);
+  text-decoration:  var(--body-medium-text-decoration);
+}
+p.body-medium, .body-medium p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-medium-font-size)), calc(var(--body-medium-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-medium.small, .body-medium.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-medium-font-size)), calc(var(--body-medium-font-size) * var(--paragraph-spacing-auto)));
+}
+.body-large {
+  font-family: var(--body-large-font-family);
+  font-weight: var(--body-large-font-weight);
+  line-height: var(--body-large-line-height);
+  font-size: var(--body-large-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-large-font-size)), var(--body-large-letter-spacing));
+  text-transform:  var(--body-large-text-transform);
+  text-decoration:  var(--body-large-text-decoration);
+}
+p.body-large, .body-large p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-large-font-size)), calc(var(--body-large-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-large.small, .body-large.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-large-font-size)), calc(var(--body-large-font-size) * var(--paragraph-spacing-auto)));
+}
+.body-small-semibold {
+    font-family: var(--body-small-semibold-font-family);
+    font-weight: var(--body-small-semibold-font-weight);
+    line-height: var(--body-small-semibold-line-height);
+    font-size: var(--body-small-semibold-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-small-semibold-font-size)), var(--body-small-semibold-letter-spacing));
+    text-transform:  var(--body-small-semibold-text-transform);
+    text-decoration:  var(--body-small-semibold-text-decoration);
+}
+p.body-small-semibold, .body-small-semibold p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-small-semibold-font-size)), calc(var(--body-small-semibold-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-small-semibold.small, .body-small-semibold.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-small-semibold-font-size)), calc(var(--body-small-semibold-font-size) * var(--paragraph-spacing-auto)));
+}
+.body-medium-semibold {
+  font-family: var(--body-medium-semibold-font-family);
+  font-weight: var(--body-medium-semibold-font-weight);
+  line-height: var(--body-medium-semibold-line-height);
+  font-size: var(--body-medium-semibold-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-medium-seminbold-font-size)), var(--body-medium-semibold-letter-spacing));
+  text-transform:  var(--body-medium-semibold-text-transform);
+  text-decoration:  var(--body-medium-semibold-text-decoration);
+}
+p.body-medium-semibold, .body-medium-semibold p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-medium-semibold-font-size)), calc(var(--body-medium-semibold-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-medium-semibold.small, .body-medium-semibold.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-medium-semibold-font-size)), calc(var(--body-medium-semibold-font-size) * var(--paragraph-spacing-auto)));
+}
+.body-large-semibold {
+  font-family: var(--body-large-semibold-font-family);
+  font-weight: var(--body-large-semibold-font-weight);
+  line-height: var(--body-large-semibold-line-height);
+  font-size: var(--body-large-semibold-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-large-semibold-font-size)), var(--body-large-semibold-letter-spacing));
+  text-transform:  var(--body-large-semibold-text-transform);
+  text-decoration:  var(--body-large-semibold-text-decoration);
+}
+p.body-large-semibold, .body-large-semibold p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-large-semibold-font-size)), calc(var(--body-large-semibold-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-large-semibold.small, .body-large-semibold.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-large-semibold-font-size)), calc(var(--body-large-semibold-font-size) * var(--paragraph-spacing-auto)));
+}
+.body-small-bold {
+  font-family: var(--body-small-bold-font-family);
+  font-weight: var(--body-small-bold-font-weight);
+  line-height: var(--body-small-bold-line-height);
+  font-size: var(--body-small-bold-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-small-bold-font-size)), var(--body-small-bold-letter-spacing));
+  text-transform:  var(--body-small-bold-text-transform);
+  text-decoration:  var(--body-small-sbold-text-decoration);
+  word-spacing: min(1.5, normal);
+}
+p.body-small-bold, .body-small-bold p, .card p.body, .card .body p   {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-small-bold-font-size)), calc(var(--body-small-bold-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-small-bold.small, .body-small-bold.small p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-small-bold-font-size)), calc(var(--body-small-bold-font-size) * var(--paragraph-spacing-auto)));
+}
+.body-medium-bold {
+    font-family: var(--body-medium-bold-font-family);
+    font-weight: var(--body-medium-bold-font-weight);
+    line-height: var(--body-medium-bold-line-height);
+    font-size: var(--body-medium-bold-font-size);
+    letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-medium-bold-font-size)), var(--body-medium-bold-letter-spacing));
+    text-transform:  var(--body-medium-bold-text-transform);
+    text-decoration:  var(--body-medium-bold-text-decoration);
+}
+p.body-medium-bold, .body-medium-bold p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-medium-bold-font-size)), calc(var(--body-medium-bold-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-medium-bold.small, .body-medium-bold.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-medium-bold-font-size)), calc(var(--body-medium-bold-font-size) * var(--paragraph-spacing-auto)));
+}
+.body-large-bold {
+  font-family: var(--body-large-bold-font-family);
+  font-weight: var(--body-large-bold-font-weight);
+  line-height: var(--body-large-bold-line-height);
+  font-size: var(--body-large-bold-font-size);
+  letter-spacing: min(calc(var(--min-letter-spacing) *  var(--body-large-bold-font-size)), var(--body-large-bold-letter-spacing));
+  text-transform:  var(--body-large-bold-text-transform);
+  text-decoration:  var(--body-large-bold-text-decoration);
+}
+p.body-large-bold, .body-large-bold p {
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-large-bold-font-size)), calc(var(--body-large-bold-font-size) * var(--paragraph-spacing-auto)));
+}
+p.body-large-bold.small, .body-large-bold.small p{
+  margin-bottom: min(calc(var(--min-paragraph-spacing) * var(--body-large-bold-font-size)), calc(var(--body-large-bold-font-size) * var(--paragraph-spacing-auto)));
+}
